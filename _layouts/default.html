@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
+    {% include head.html %}
 
-  {% include head.html %}
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2" id="main">
+                    
+                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                    <!--    NAVIGATION                  -->
+                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                    <div class="row" id="nav">
+                        <a class="pill{% if page.type == 'home' %} active{% endif %}" href="{{ site.baseurl | prepend: site.url }}"> 
+                            Home
+                        </a>
+                        <a class="pill{% if page.type == 'about' %} active{% endif %}" href="/about/">
+                            About
+                        </a>
+                    </div>
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                    <!--    CONTENT                     -->
+                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->                    
+                    <div class="row" id="content">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
 </html>
