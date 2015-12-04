@@ -5,6 +5,10 @@ permalink: /about/
 type: about
 ---
 
+<div id="cover-pic" class="text-center">
+    <img src="/assets/cover.jpg" />
+</div>
+
 Hello à tous ! Je suis Daniel Garnier-Moiroux, et vous êtes sur le blog où je publie quelques divagations à propos de mon métier, l'informatique au sens large.
 
 Ingénieur de formation, je me suis spécialisé dans la conception et la mise en oeuvre de systèmes informatiques.  Je travaille actuellement pour une société d'ingénierie logicielle, <a href="https://www.timsoft.com" target="_blank">Timsoft</a>. 
