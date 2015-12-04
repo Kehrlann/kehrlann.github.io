@@ -1,12 +1,13 @@
 ---
 layout: page
-title: About
+title: Daniel Garnier-Moiroux
 permalink: /about/
 type: about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello à tous ! Je suis Daniel Garnier-Moiroux, et vous êtes sur le blog où je publie quelques divagations à propos de mon métier, l'informatique au sens large.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Ingénieur de formation, je me suis spécialisé dans la conception et la mise en oeuvre de systèmes informatiques.  Je travaille actuellement pour une société d'ingénierie logicielle, <a href="https://www.timsoft.com" target="_blank">Timsoft</a>. 
+Pour en savoir plus sur mon parcours professionnel, jetez un oeil à <a href="http://cv.garnier.wf" target="_blank">mon CV en ligne</a> !
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Durant mon temps libre, je code, je cuisine, je dessine. Il m'arrive parfois de passer un peu de temps dans les sous-sols de Paris.

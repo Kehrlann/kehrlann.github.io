@@ -2,8 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$green:       #A2DED0;
-$lightgreen:  #A2DED0;  
+// Aquad island : #A2DED0
+// Emerald : #3FC380
+$green:       #3FC380;
+$lightgreen:  #3FC380;  
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
