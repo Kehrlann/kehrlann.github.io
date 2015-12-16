@@ -47,18 +47,19 @@
 {
     margin-top:20px;
     
-    h1
+    h3
     {
-        color: $green;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
-    
+ 
     .content
-        {
+    {
         margin-top:20px;
     }
     
     .post
-        {
+    {
         .post-metadata
         {
             font-style:italic;
@@ -100,4 +101,9 @@ body
     {
         max-width: 100%;
     }
+}
+
+.post-metadata
+{
+    margin-bottom: 40px;
 }
