@@ -1,2 +1,2 @@
 # kehrlann.github.io
-Daniel
+Source code for Daniel Garnier-Moiroux' blog.

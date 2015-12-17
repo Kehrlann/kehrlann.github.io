@@ -12,6 +12,10 @@ type: about
 Hello à tous ! Je suis Daniel Garnier-Moiroux, et vous êtes sur le blog où je publie quelques divagations à propos de mon métier, l'informatique au sens large.
 
 Ingénieur de formation, je me suis spécialisé dans la conception et la mise en oeuvre de systèmes informatiques.  Je travaille actuellement pour une société d'ingénierie logicielle, <a href="https://www.timsoft.com" target="_blank">Timsoft</a>. 
-Pour en savoir plus sur mon parcours professionnel, jetez un oeil à <a href="http://cv.garnier.wf" target="_blank">mon CV en ligne</a> !
+Pour en savoir plus sur mon parcours professionnel, jetez un oeil à :
 
-Durant mon temps libre, je code, je cuisine, je dessine. Il m'arrive parfois de passer un peu de temps dans les sous-sols de Paris.
+- Mon <a href="http://cv.garnier.wf" target="_blank">CV en ligne</a> 
+- Mon <a href="https://www.linkedin.com/in/garniermoiroux" target="_blank">profil LinkedIn</a> 
+- Voire mon <a href="http://github.com/Kehrlann" target="_blank">compte github</a> 
+
+Durant mon temps libre, je code, je cuisine, je dessine, je fais de l'escalade. Il m'arrive encore parfois de passer un peu de temps dans les sous-sols de Paris. 
