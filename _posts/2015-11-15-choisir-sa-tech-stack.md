@@ -18,8 +18,12 @@ On parle de tech stack pour designer l'ensemble des composants techniques à met
 
 La stack peut être plus complexe, intégrer des bases de données, des clients/serveurs de différents protocoles (http pour le web, SMTP pour le mail, RTSP pour la vidéo), mais, encore une fois, l'important est l'interdépendance des composants - Microsoft SQL server ne tournera pas sur Linux ; et mes scripts bash de synchro de données ne seront pas utilisables sous Windows.
 
+<div id="cover-pic" class="text-center">
+    <img src="/assets/2015-11-15-tech_stack.png" title="Exemple de tech stack" />
+    <br>
+    <i>Un exemple de tech stack pour une petite appli web</i>
+</div>
 
-Un exemple de tech stack pour une petite appli web
 
 Vous avez sans doute déjà entendu parler de tech stack dans le cadre des ingénieurs ou développeurs dits "full stack", qui devront être capables de maîtriser l'intégralité des composants mis en oeuvre, par opposition à l'approche plus segmentée, avec des développeurs qui ne font que du code fonctionnel, des DBA qui ne font que de la base de données et des exploitants qui ne font que de l'hébergement / gestion de la production. Dans tous les cas, chacun est responsable d'une partie, plus ou moins importante, des technologies utilisées. Dans la configuration "segmentée", on verra sans doute des architectes chargés de mettre en place une certaine cohérence dans les technologies mises en oeuvre.
 
