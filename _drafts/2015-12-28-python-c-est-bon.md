@@ -72,18 +72,79 @@ Sa licence, combiné à la possibilité de déployer sur un Linux, permet de fai
 ### The <span style="text-decoration:line-through;">bad</span> great
 
 #### Philosophie
--> Zen of python
+Autour de Python s'est construite une "philosophie", un mode de pensée adopté par les utilisateurs et les développeurs, qui transparait dans le code et dans la façon d'utiliser le langage. Je vous invite à lire les 20 aphorismes qui constituent le "<a href="https://www.python.org/dev/peps/pep-0020/" target="_blank">Zen de Python</a>." Et rappelez-vous, "simple is better than complex".
 
 #### Communauté
-- Ils font de tout
-- Plutôt respectueux
-- C'est beau, et bien documenté
+La communauté est plutôt respectueuse et constructive, et produit des libs au kilo, en général très pratiques et très bien documentées. Bientôt un article sur la question :) 
 
 #### Puissant !
-- Multi paradigme
-- Décorations
-- Contextes, itérateurs ...
-- Facilité d'utilisation sur les tableaux
+Python est langage très expressif, et il faut explorer un peu pour l'apprécier. Par exemple, il y a une belle maîtrise des arrays, avec une fonction "map" et une fonction "filter" intégrées :
+ 
+{% highlight python %}
+a = [1, 2, 3, 4, 5]
+
+# Les valeurs au carré (fonction "map")
+squared = [x*x for x in a]  
+#   -> donne [1, 4, 9, 16, 25]
+
+# Filtrage
+odd = [x for x in a if (x % 2) == 1]
+#   -> donne [1, 3, 5]
+{% endhighlight %}
+
+De plus, Python est multi-paradigme, et les fonctions sont des "citoyens de première classe", ce qui fait qu'on peut les utiliser comme des simples variables, en argument d'autres fonctions. Pour comprendre les concepts de programmtion fonctionnelle, un petit exemple illustré. Supposons qu'on définise à la main les fonctions ajout, soustraction, multiplication, etc.
+ 
+{% highlight python %}
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return b - a
+
+# ajouter mult, div, etc
+
+add(3, 8)   #   -> donne 11
+sub(8, 3)   #   -> donne -5
+{% endhighlight %}
+
+Supposons maintenant qu'on veut borner les résultats des ces opérations, disons entre 0 et 255. 
+
+{% highlight python %}
+def wrapper(func):
+    def checker(a, b):
+        ret = func(a,b)
+        if ret < 0:
+            ret = 0
+        elif ret > 255:
+            ret = 255
+        return ret
+
+    return checker
+
+add = wrapper(add)
+sub = wrapper(sub)
+# etc
+
+add(3, 5)   #   -> donne 8
+add(500, 9) #   -> donne 255
+sub(8, 3)   #   -> donne 0
+{% endhighlight %}
+
+Grâce à une facilité de Python, on aurait pu écrire :
+{% highlight python %}
+@wrapper
+def add(a, b):
+    return a + b
+
+@wrapper
+def sub(a, b):
+    return b - a
+
+# ajouter mult, div, etc
+
+add(3, 8)   #   -> donne 11
+sub(8, 3)   #   -> donne 0
+{% endhighlight %}
 
 ### The ugly
 
