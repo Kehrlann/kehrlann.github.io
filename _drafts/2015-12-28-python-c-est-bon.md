@@ -101,52 +101,40 @@ def add(a, b):
 def sub(a, b):
     return b - a
 
-# ajouter mult, div, etc
+add(3, 8)   #   ->  donne 11
+sub(8, 3)   #   ->  donne -5
 
-add(3, 8)   #   -> donne 11
-sub(8, 3)   #   -> donne -5
-{% endhighlight %}
+def print_name(func):
+    # Petite fonction qui affiche le nom de "func" avant d'exécuter func
+    def run(*args, **kwargs):
+        if hasattr(func, '__name__'):
+            print(func.__name__)
+        return func(*args, **kwargs)
 
-Supposons maintenant qu'on veut borner les résultats des ces opérations, disons entre 0 et 255. 
+    return run
+       
+add = print_name(add)
+sub = print_name(sub)
 
-{% highlight python %}
-def wrapper(func):
-    def checker(a, b):
-        ret = func(a,b)
-        if ret < 0:
-            ret = 0
-        elif ret > 255:
-            ret = 255
-        return ret
-
-    return checker
-
-add = wrapper(add)
-sub = wrapper(sub)
-# etc
-
-add(3, 5)   #   -> donne 8
-add(500, 9) #   -> donne 255
-sub(8, 3)   #   -> donne 0
+add(3, 8)   #   ->  print "add" et donne 11
+sub(8, 3)   #   ->  print "sub" et donne -5
 {% endhighlight %}
 
 Grâce à une facilité de Python, on aurait pu écrire :
 {% highlight python %}
-@wrapper
+@print_name
 def add(a, b):
     return a + b
 
-@wrapper
+@print_name
 def sub(a, b):
     return b - a
-
-# ajouter mult, div, etc
-
-add(3, 8)   #   -> donne 11
-sub(8, 3)   #   -> donne 0
 {% endhighlight %}
 
+Et ceci n'est qu'une petite fenêtre dans ce que peut faire Python. Il faudra un peu de pratique pour saisir toute l'expressivité du langage !
+
 ### The ugly
+Ne faites jamais confiance à quelqu'un qui vous vend sa came sans jamais aborder les effets secondaires. Tout n'est pas rose dans le monde de Python, et il y a quelques défauts à sérieusement considérer avant d'en faire son outil n°1.
 
 #### Performance...
 
