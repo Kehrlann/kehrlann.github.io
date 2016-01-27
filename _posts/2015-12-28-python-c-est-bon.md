@@ -2,7 +2,7 @@
 layout: post
 title:  "Python, c'est bon"
 date:   2015-12-28
-categories: tech, python
+categories: [tech, python]
 author: Daniel Garnier-Moiroux
 ---
 
