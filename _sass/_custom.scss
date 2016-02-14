@@ -1,4 +1,4 @@
-#main 
+#main
 {
     margin-top:10px;
 }
@@ -7,31 +7,31 @@
 {
     padding-bottom: 20px;
     margin-top: 20px;
-    
+
     border-bottom:  2px solid $lightgreen; /*#68C3A3; #86E2D5;*/
-    
+
     > .pill
     {
         width:120px;
         display: inline-block;
         padding: 10px 0;
         margin:0 10px;
-        
+
         text-align: center;
         font-weight: bold;
         color: $green;
         text-decoration: none;
-        
+
         border-radius: 3px;
         border: 2px solid white;
-        
+
         cursor: pointer;
-        
+
         &:hover
         {
             border-color: $green;
         }
-        
+
         &.active
                 {
             width:120px;
@@ -40,24 +40,24 @@
             border-color: $green;
         }
     }
-    
+
 }
 
 #content
 {
     margin-top:20px;
-    
+
     h3, h4, h5
     {
         margin-top: 40px;
         margin-bottom: 20px;
     }
- 
+
     .content
     {
         margin-top:20px;
     }
-    
+
     .post
     {
         .post-metadata
@@ -70,7 +70,7 @@
 a
 {
     color: $green;
-    
+
     &:hover
     {
         color:$lightgreen;
@@ -96,7 +96,7 @@ body
 {
     text-align: center;
     margin-bottom: 20px;
-    
+
     img
     {
         max-width: 100%;
@@ -106,4 +106,9 @@ body
 .post-metadata
 {
     margin-bottom: 40px;
+}
+
+figure.highlight
+{
+    margin-bottom: 20px;
 }
