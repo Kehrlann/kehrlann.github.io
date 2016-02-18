@@ -218,7 +218,7 @@ De plus, il "manque" un certain nombre de fonctionnalités par rapport à d'autr
 
 
 #### IDE, imports, tooling
-S'il y a des bons outils pour travailler avec Python, comme l'éditeur <a href="http://www.jetbrains.com/pycharm" target="_blank">PyCharm de Jetbrains</a>, ils sont payants. Pour le reste, les outils sont plus ou moins puissants, plus ou moins bien intégrés. Les fanas de Linux s'en sortiront avec un vim ou un emacs customisé, mais pour un débutant sur Windows, c'est rude. J'ai essayé il y a longtemps Eclipse pour Python mais j'avais été très déçu par l'expérience. L'autocomplémention, notamment, n'est pas au top.
+S'il y a des bons outils pour travailler avec Python, comme l'éditeur <a href="http://www.jetbrains.com/pycharm" target="_blank">PyCharm de Jetbrains</a>, ils sont payants. Pour le reste, les outils sont plus ou moins puissants, plus ou moins bien intégrés. Les fanas de Linux s'en sortiront avec un vim ou un emacs customisé, mais pour un débutant sur Windows, c'est rude. J'ai essayé il y a longtemps Eclipse pour Python mais j'avais été très déçu par l'expérience. L'autocomplétion, notamment, n'est pas au top.
 
 Enfin, le système d'import et de gestion de dépendances, à base de "modules" et de "packages" est difficile à appréhender par un débutant. L'absence d'IDE standard qui règle tous ces problèmes en permettant de lier les projets entre eux rend les choses encore plus difficiles pour un débutant.
 
