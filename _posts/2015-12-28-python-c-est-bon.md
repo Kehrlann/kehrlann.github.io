@@ -92,7 +92,7 @@ La richesse de Python vient en grande partie du nombre de packages disponibles. 
 Je romance peut-être un peu, mais c'est un sentiment général. Je n'ai qu'un contre-exemple en quelques années d'utilisation : il me fallait une petite lib pour sauvegarder des cookies HTTP sur disque dans une base de données SQLite ... Auto-promotion : j'en ai fait une petite librairie, disponible sur pip (`pip install sqlitecookiejar`) ou sur <a href="https://github.com/timsoft-oss/sqlitecookiejar" target="_blank">Github</a>.
 
 #### Déploiement
-Grâce à pip / setuptools, déployer un programme est très simple. En plus, Python étant interprété, pas besoin de précompiler son projet : on peut directement puller le code directement depuis un repository git et lancer le programme.
+Grâce à pip / setuptools, déployer un programme est très simple. En plus, Python étant interprété, pas besoin de précompiler son projet : on peut par exemple puller le code directement depuis un repository git et lancer le programme.
 
 L'isolation des "environnements" dans lesquels tournent les applications, avec leurs propres dépendances, leurs propres versions des différents modules, etc, est faite grâce à _virtualenv_, un excellent outil, facile à installer et à utiliser.
 
