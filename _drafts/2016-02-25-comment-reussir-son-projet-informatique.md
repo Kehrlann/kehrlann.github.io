@@ -1,0 +1,4 @@
+- Vision (objectif(s), solutions techniques/humaines)
+- Démarche (comment ? orga ? ouutils ?)
+- Equipe
+- Une dynamique (c'est comme un diesel)
