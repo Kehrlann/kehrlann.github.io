@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Best of de librairies Python"
-date:   2016-02-26
+date:   2016-02-25
 categories: [tech, python]
 author: Daniel Garnier-Moiroux
 ---
@@ -9,7 +9,7 @@ author: Daniel Garnier-Moiroux
 Comme je l'ai déjà évoqué dans un [post précédent]({% post_url 2015-12-28-python-c-est-bon %}),
 j'apprécie beaucoup le langage Python, notamment pour la qualité des outils et
 des libriaires disponibles. Voici une petite compilation de quelques libs qui
-m'ont tapé dans l'oeil, plus ou moins récentes.
+m'ont tapé dans l'oeil, plus ou moins récemment.
 
 ### Pour les programmes en ligne de commande
 
@@ -25,8 +25,8 @@ par <a href="http://lucumr.pocoo.org/about/" target="_blank">Armin Ronacher</a>
 Elle permet de créer rapidement des applis Python
 à utiliser en ligne de commande, avec une simple fonction. L'API  est à la fois
 pratique et élégante, et évite de se taper tout le parsing et la validation des
-arguments à la main. Un petit exemple, pour un programme qui prend un user et un
-password en ligne de commande :
+arguments à la main. Un petit exemple, pour un programme qui prend en paramètre
+un user et un password :
 
 {% highlight python %}
 import click
@@ -89,21 +89,25 @@ Counting:  29%|██████               | 12/42 [00:01<00:03,  9.95it/s]
 ### Pour le Web
 
 Python est très apprécié pour le web, comme son cousin éloigné Ruby, et ce grâce
-à des frameworks très connus : Django pour l'un, Ruby On Rails - Voici donc de
-quoi contenter une bonne part des utilisateurs Python !
+à des frameworks très connus : Django pour l'un, Ruby On Rails pour l'autre.
+Mais Django n'est pas l'Alpha et l'Oméga du développement web en Python, et
+voici quelques librairies dignes d'attention.
 
 #### flask - microframework Web
 
 Vous en avez déjà entendu parler, c'est sûr.
 <a href="http://flask.pocoo.org/" target="_blank">Flask</a> est un des frameworks
 web les plus connus pour Python. Contrairement à Django, Flask est plutôt simple
-et petit : il est même qualifié de microframework - à vous de choisir quelles libs
-utiliser pour chaque fonctionnalité à dévélopper : login, ORM, mail, etc. En fait,
-ça me fait penser aux outils javascript, dans la veine d'expressjs. C'est de très
-loin mon framework préféré ! Comme c'est plutôt vaste comme sujet, je vous laisse
+et petit : il est même qualifié de microframework - c'est donc  à vous de
+choisir quelles libs utiliser pour chaque fonctionnalité à dévélopper : login,
+ORM, mail, etc. En fait, ça me fait penser aux outils Javascript qui sont apparus
+avec NodeJS, plein de modules à associer les uns aux autres - ca ressemble par
+exemple au framework ExpressJS.
+
+Flask est de très loin mon framework web préféré ! C'est un sujet plutôt vaste,on pourrait écrire un article exclusivement là-dessus ... Je vous encourage donc à
 aller jeter un oeil à la doc.
 
-Ah ! J'oubliais, il a été écrit par Armin Ronacher, cf `click` présenté
+Ah ! J'oubliais presque, il a été écrit par Armin Ronacher, cf `click` présenté
 ci-dessus ... Vous verrez, ce type est un peu mon héro.
 
 
@@ -152,15 +156,21 @@ Et on récupère le contenu grâce à `r.json()` :
 #### itsdangerous - pour signer des données
 
 Dès qu'il y a de la gestion d'utilisateur sur le web, il y a de la gestion de
-mot de passe, et donc une fonctionnalité de "Mot de passe oublié". L'approche
-historique était de générer un token, de le stocker dans une base de données,
-puis d'envoyer un mail à l'utilisateur avec un lien contenant ce token. L'autre
-approche consiste à signer des données, par exemple le mail de l'utilisateur et
-la date jusqu'à laquelle il a le droit de reset son mot de passe, et lui envoyer
-ces informations signées. Ainsi, pas besoin de sauvegarder ces infos en base de
-données ; et la signature garantit qu'un lien est valide, c'est à dire qu'il
-a bien été généré par le serveur et non par un attaquant. Une autre librairie
-d'Armin Ronacher (décidément) facilite ce genre de travail :
+mot de passe, et donc une fonctionnalité de "Mot de passe oublié".
+
+L'approche historique était de générer un token, de le stocker dans une base de
+données, puis d'envoyer un mail à l'utilisateur avec un lien contenant ce token
+- prouvant ainsi que la personne qui visite la page de reset de mot de passe est
+bien autorisée.
+
+L'autre facon de prouver l'identité de l'utilisateur consiste à "signer" des
+données, par exemple le mail de l'utilisateur et la date jusqu'à laquelle il a
+le droit de reset son mot de passe, et lui envoyer ces informations signées.
+Ainsi, pas besoin de sauvegarder ces infos en base de données ; lorsqu'un
+utilisateur visite la page de reset, si la signature correspond bien à son adresse
+mail, il a le droit de reset le mot de passe.
+
+Une librairie d'Armin Ronacher (décidément) facilite ce genre de process :
 <a href="http://pythonhosted.org/itsdangerous/" target="_blank">itsdangerous</a>.
 
 {% highlight python %}
