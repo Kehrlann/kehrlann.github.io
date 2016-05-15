@@ -25,6 +25,7 @@ En fait, tout en revient à une question d'apprentissage. Manger des réponses s
 
 ### Une question de style
 Pour finir, un petit exemple de ce que vous pouvez être, avec et sans apprentissage. Soit vous êtes le type qui dit "ah oui ça me dit un truc ce problème..." Excellent ! et ça a été résolu comment ? "Euh chaipas".
+
 Soit vous plutôt du genre "ah oui j'ai eu ce problème, sa cause c'était ça et ça - j'ai implémenté un fix de telle manière" et autre "ben fais voir, ça ressemble à tel mécanisme qui merdouille quelque part..."
 
 Le choix vous appartient !
