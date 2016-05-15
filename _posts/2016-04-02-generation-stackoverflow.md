@@ -6,6 +6,11 @@ categories: [tech, ideas]
 author: Daniel Garnier-Moiroux
 ---
 
+<div id="cover-pic" class="text-center">
+    <img src="/assets/2016-04-02-generation-stackoverflow.png" title="Stackoverflow is down !" />
+</div>
+
+
 Mon premier site, je l'ai fait en 2003 avec Microsoft Frontpage. Ca a été une découverte très progressive, en cliquant partout, en expérimentant, en essayant chacune des fonctionnalités ... Peu de temps après, j'ai acheté mon premier livre d'informatique, pour apprendre à faire des sites dynamiques... Le bouquin s'appelait "PHP et MySQL". Je l'ai lu religieusement, de A à Z, en mettant en pratique chacun des exercices du livre, puis j'ai patiemment mis en œuvre les principes appris dans le livre, avec un simple éditeur de texte et un compte gratuit chez Free, en créant un système de blog de zéro.
 
 Depuis, je n'ai pas cessé d'apprendre, en continu, grâce à internet : j'ai lu plein de quickstarts de plein de langages et de frameworks pour me faire une première impression, et un bon paquet de not-so-quick follow-ups pour en apprendre un peu plus. Je lis quotidiennement des articles de blogs et de revues techniques, pour me tenir informé de l'état de l'art et des nouvelles tendances. J'ai pris le temps d'éplucher les sources de librairies python et d'applis JavaScript. Chaque jour j'apprends un peu plus.
