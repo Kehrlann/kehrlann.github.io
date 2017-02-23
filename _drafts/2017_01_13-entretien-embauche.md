@@ -97,8 +97,11 @@ différents, et des niveaux de difficulté différents, adaptés au candidat. Le
 est de voir comment il travaille, comment il se/vous pose des questions, comment il
 fait des essais/erreurs, etc.
 
-J'aime bien l'idée de laisser accès à Internet pendant l'entretien - après tout,
-c'est une partie intégrante de notre travail quotidien.
+J'aime bien l'idée d'autoriser l'accès à Internet pendant l'entretien - après tout,
+c'est une partie intégrante de notre travail quotidien, et voir le candidat faire
+des recherches est très instructif. Quels sont ses réflexes ? Ses sites de référence
+? Est-ce qu'il sait formuler ses questions pour un moteur de recherche ?
+
 
 ### Clôturer l'entretien
 Forcer des questions de la part du candidat à la fin
