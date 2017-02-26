@@ -2,7 +2,7 @@
 layout: post
 title:  "Génération StackOverflow"
 date:   2016-04-02
-categories: [tech, ideas]
+categories: [opinion]
 author: Daniel Garnier-Moiroux
 ---
 
