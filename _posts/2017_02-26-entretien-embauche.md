@@ -1,10 +1,15 @@
 ---
 layout: post
 title:  "Faire passer un entretien technique"
-date:   2017-02-15
-categories: [tech, recrutement]
+date:   2017-02-26
+categories: [recrutement]
 author: Daniel Garnier-Moiroux
 ---
+
+
+<div id="cover-pic" class="text-center">
+    <img src="/assets/2017-02-26-job-interview.jpg" title="Le stress de l'entretien" />
+</div>
 
 Il y a quelques semaines, j'ai eu l'occasion de faire passer un entretien technique,
 chez un client. Ils recherchaient un profil technique, senior et plutôt autonome.
@@ -25,12 +30,12 @@ poches. D'ailleurs, qu'est-ce que vous penseriez, vous, d'un candidat qui arrive
 les mains dans les poches ? Donc, dans un premier temps, il faut se renseigner sur
 le parcours du candidat, et le CV est un bon point de départ. Il permet évenutellement
 de travailler sur la trajectoire du candidat, pourquoi il répond à cette offre
-d'emploi, est-ce que c'est cohérent, etc.
+d'emploi, est-ce que c'est cohérent avec son parcours et ses compétences, etc.
 
 
-Ca peut évident, mais l'étape la plus cruciale de la préparation, c'est de définir
-les objectifs de l'entretien. Qu'est-ce que l'entreprise attend de cette rencontre ?
-Qu'est-ce qu'on cherche à savoir ?
+Ca peut paraître évident, mais l'étape la plus cruciale de la préparation, c'est
+de définir les objectifs de l'entretien. Qu'est-ce que l'entreprise attend de cette
+rencontre ? Qu'est-ce qu'on cherche à savoir ?
 
 - La capacité technique du candidat sur des sujets précis
 - S'il est autonome
@@ -47,8 +52,8 @@ structuré, en plusieurs partie, par exemple :
 5. Feedback de la part du candidat
 6. Feedback de la part des employés faisant passer l'entretien,
 
-Une fois le programme mis en place, il est non négligeable de timeboxer les étapes,
-pour équilibrer l'entretien et ne pas arriver le faire durer plus que nécessaire.
+Une fois le programme mis en place, j'essaye de mettre une durée indicative les
+étapes, pour équilibrer l'entretien et ne pas arriver le faire durer plus que nécessaire.
 En plus, ca donne une indication au candidat sur ce qui est attendu de lui.
 
 
@@ -61,10 +66,11 @@ des conditions où les points forts peuvent pleinement s'exprimer.
 
 Pour briser un peu la glace, faire parler le candidat lui permet de "s'échauffer"
 avant les sujets difficiles. Lui faire présenter rapidement son parcours est un bon
-moyen de se lancer, en maîtrisant le sujet, il est sûr qu'il n'y a pas de piège.
+moyen pour lui de se lancer, en maîtrisant le sujet, et il est sûr qu'il n'y a pas
+de piège.
 
 Ensuite, afin d'éviter au maximum toute incompréhension, il faut être explicite
-sur les attentes. Par exemple, on avant un exercice de code, on peut dire "le but
+sur les attentes. Par exemple, avant un exercice de code, on peut dire "le but
 de l'exercice est de tester un peu la logique, de voir l'aspect itératif de la
 construction du code, et de voir comment vous réflechissez". Ou bien, à l'inverse,
 "le but de l'exercice est de mesurer votre connaissance des aspects asynchrones de
@@ -73,8 +79,8 @@ construction du code, et de voir comment vous réflechissez". Ou bien, à l'inve
 Vous pouvez être amené à demander un livrable à réaliser après l'entretien. Dans
 le cas du profil senior présenté, on lui a demandé de rédiger une petite synthèse
 des sujets techniques abordés pendant l'entretien, et de proposer une ou des approches.
-Il faut prévenir *avant* l'entretien, pour que le candidat soit dans le bon état
-d'esprit, prenne des notes, etc.
+Dans ce cas, il faut prévenir *avant* l'entretien, pour que le candidat soit dans
+le bon état d'esprit, prenne des notes, etc.
 
 
 ### Technique
@@ -104,12 +110,29 @@ des recherches est très instructif. Quels sont ses réflexes ? Ses sites de ré
 
 
 ### Clôturer l'entretien
-Forcer des questions de la part du candidat à la fin
-"comment vous vous êtes trouvé"
+La fin de l'entretien permet facilement d'en savoir un peu plus sur la personnalité
+du candidat, son estime de soi, et sa capacité de synthèse. On peut lui demander
+son ressenti et ses réflexions sur l'entretien, à la fois sur la partie personnelle
+/ CV et sur la partietechnique. On à savoir ce que le candidat peut dire de l'entretien,
+et sa perception de sa propre performance. On peut également le laisser poser des
+questions supplémentaires.
 
+C'est également le moment pour l'entreprise de donner un feedback, pour permettre
+au candidat de préparer d'éventuels autres entretiens, avec l'entreprise ou avec
+d'autres employeurs. L'entreprise doit faire passer un message cohérent, donc on
+fait sortir le candidat pour se mettre d'accord sur les points à aborder, et le
+message à faire passer sur ces différents points. Le but n'est pas obligatoirement
+d'arriver à une décision d'embauche, juste de faire un feedback à chaud - on pourra
+passer plus de temps pour une mûrir une décision d'embauche / de continuer le process.
 
-### Divers
+### Et pour la suite ...
+Je n'ai pas vocation à me spécialiser dans les entretiens techniques, mais c'est
+un domaine très intéressant, et il reste plein de questions ouvertes, que je garde
+dans un coin :
+- Comment interviewer un junior ? un senior ?
+- Qu'est-ce qu'un bon exercice technique ?
+- Faut-il utiliser un tableau blanc plutôt qu'un PC ?
+- Faut-il poser à l'avance / après l'entretien des problèmes un peu plus complexes
+aux candidats, pour voir comment ils travaillent en autonomie ?
 
-J'ai également été amené à faire passer des entretiens à des profils plus juniors,
-qui présentent des problématiques différentes : en général, le candidat a assez peu
-de compétences techniques, on va plutôt
+Bref, encore du boulot ...
