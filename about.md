@@ -9,7 +9,7 @@ type: about
     <img src="/assets/cover.jpg" />
 </div>
 
-Ingénieur de formation, je me suis spécialisé dans la conception et la mise en oeuvre de systèmes informatiques.  Je travaille actuellement pour une société d'ingénierie logicielle, <a href="https://www.timsoft.com" target="_blank">Timsoft</a>.
+Ingénieur de formation, je me suis spécialisé dans la conception et la mise en oeuvre de systèmes informatiques.  Je travaille actuellement pour une société d'ingénierie logicielle, <a href="https://pivotal.io/labs" target="_blank">Pivotal Labs</a>.
 Pour en savoir plus sur mon parcours professionnel, jetez un oeil à :
 
 - Mon <a href="http://cv.garnier.wf" target="_blank">CV en ligne</a>
