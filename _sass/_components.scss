@@ -1,0 +1,52 @@
+@import "_colors";
+
+hr {
+  background-color: $lightgreen;
+  border: none;
+  height: 2px;
+}
+
+#cover-pic
+{
+  text-align: center;
+  margin-bottom: 20px;
+
+  img
+  {
+    max-width: 100%;
+  }
+}
+
+#post-metadata
+{
+  font-style:italic;
+  margin: 0 .5em 2em .5em;
+}
+
+// TODO: REWORK
+.pill {
+  width: 120px;
+  display: inline-block;
+  padding: 10px 0;
+
+  text-align: center;
+  font-weight: bold;
+  color: $green;
+  text-decoration: none;
+
+  border-radius: 3px;
+  border: 2px solid white;
+
+  cursor: pointer;
+
+  &:hover {
+    border-color: $green;
+  }
+
+  &.active {
+    width: 120px;
+    color: white;
+    background-color: $green;
+    border-color: $green;
+  }
+}

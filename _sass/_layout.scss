@@ -1,0 +1,20 @@
+body {
+  overflow-y: scroll;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#main {
+  // TODO: WiP
+  max-width: 800px;
+}
+
+#header {
+  margin-top: 20px;
+  padding: 0 1em 1em 1em;
+}
+
+#content {
+  margin: 2em 1em;
+}

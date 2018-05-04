@@ -3,32 +3,29 @@ layout: default
 type: home
 ---
 
-<div class="col-md-12">
-    <p>
-        Hello à tous !
-        <br>
-        <br>
-        Je suis Daniel Garnier-Moiroux, et vous êtes sur le blog où je publie
-        quelques divagations à propos de mon métier, l'informatique au sens
-        large. Vous trouverez des articles sur la technique, mais aussi sur
-        l'organisation des projets informatiques ou les aspects commerciaux
-        des services en informatique.
-        <br>
-        <br>
-        Bonne lecture !
-    </p>
+<p class="text-justify">
+    Hello à tous !
+    <br>
+    <br>
+    Je suis Daniel Garnier-Moiroux, et vous êtes sur le blog où je publie
+    quelques divagations à propos de mon métier, l'informatique au sens
+    large. Vous trouverez des articles sur la technique, mais aussi sur
+    l'organisation des projets informatiques ou les aspects commerciaux
+    des services en informatique.
+    <br>
+    <br>
+    Bonne lecture !
+</p>
 
-    <h1>Articles</h1>
+<h1>Articles</h1>
 
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <span>{{ post.date | date: "%d / %m / %Y" }} :&nbsp;</span>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <span>{{ post.date | date: "%d / %m / %Y" }} :&nbsp;</span>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
 
-    <p style="margin-top:20px;">Abonnement <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>.
-
-</div>
+<p style="margin-top:20px;">Abonnement <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>.

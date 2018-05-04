@@ -1,48 +1,3 @@
-#main
-{
-    margin-top:10px;
-}
-
-#nav
-{
-    padding-bottom: 20px;
-    margin-top: 20px;
-
-    border-bottom:  2px solid $lightgreen; /*#68C3A3; #86E2D5;*/
-
-    > .pill
-    {
-        width:120px;
-        display: inline-block;
-        padding: 10px 0;
-        margin:0 10px;
-
-        text-align: center;
-        font-weight: bold;
-        color: $green;
-        text-decoration: none;
-
-        border-radius: 3px;
-        border: 2px solid white;
-
-        cursor: pointer;
-
-        &:hover
-        {
-            border-color: $green;
-        }
-
-        &.active
-                {
-            width:120px;
-            color:white;
-            background-color:$green;
-            border-color: $green;
-        }
-    }
-
-}
-
 #content
 {
     margin-top:20px;
@@ -60,26 +15,8 @@
 
     .post
     {
-        .post-metadata
-        {
-            font-style:italic;
-        }
+
     }
-}
-
-a
-{
-    color: $green;
-
-    &:hover
-    {
-        color:$lightgreen;
-    }
-}
-
-h1, h2, h3, h4, h5
-{
-    color:$lightgreen;
 }
 
 body
@@ -90,17 +27,6 @@ body
 .footnotes
 {
     margin-top: 40px;
-}
-
-#cover-pic
-{
-    text-align: center;
-    margin-bottom: 20px;
-
-    img
-    {
-        max-width: 100%;
-    }
 }
 
 .post-metadata

@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
-<div class="col-md-12 post">
-
-  <header>
+<div>
     <h1>{{ page.title }}</h1>
-    <p class="post-metadata">{{ page.date | date: "%-d / %-m / %Y" }}{% if page.author %}&nbsp;&nbsp;•&nbsp;&nbsp;{{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+    <p id="post-metadata">{{ page.date | date: "%-d / %-m / %Y" }}{% if page.author %}&nbsp;&nbsp;•&nbsp;&nbsp;{{
+        page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+</div>
 
-  <div class="content text-justify">
+<div class="text-justify">
     {{ content }}
-  </div>
-
 </div>

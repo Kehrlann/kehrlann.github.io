@@ -13,7 +13,7 @@ C'est un choix important, qui doit être réfléchi, sans quoi le risque est de 
 Ce choix est d'autant plus important que les outils disponibles sont de plus en plus nombreux, et changent de plus en plus rapidement. Grâce à une simple connexion internet, je peux obtenir tous les éléments nécessaires pour faire tourner mon projet, et je peux également me former en ligne grâce à de la documentation, des guides de démarrage rapide, des projets open source dont je peux m'inspirer, ou des sites collaboratifs comme StackOverflow grâce auxquels des utilisateurs de tous les horizons pourront répondre à la moindre de mes questions techniques. 
 
 
-### Qu'est-ce que la tech stack ?
+## Qu'est-ce que la tech stack ?
 On parle de tech stack pour designer l'ensemble des composants techniques à mettre en oeuvre. Si le terme de "pile" n'est pas tout à fait correct, il souligne la dépendance des composants entre eux : un code Python doit tourner dans un runtime compatible (2.x, 3.x), lui même sur un certain OS que je choisis (Ubuntu 14.04, Windows Server 2012), éventuellement dans un hyperviseur(KVM, VMWare ESXi), sur un serveur matériel donné (HP, Dell) ou chez un provider IaaS (Amazon AWS, Microsoft Azure).
 
 La stack peut être plus complexe, intégrer des bases de données, des clients/serveurs de différents protocoles (http pour le web, SMTP pour le mail, RTSP pour la vidéo), mais, encore une fois, l'important est l'interdépendance des composants - Microsoft SQL server ne tournera pas sur Linux ; et mes scripts bash de synchro de données ne seront pas utilisables sous Windows.
@@ -28,7 +28,7 @@ La stack peut être plus complexe, intégrer des bases de données, des clients/
 Vous avez sans doute déjà entendu parler de tech stack dans le cadre des ingénieurs ou développeurs dits "full stack", qui devront être capables de maîtriser l'intégralité des composants mis en oeuvre, par opposition à l'approche plus segmentée, avec des développeurs qui ne font que du code fonctionnel, des DBA qui ne font que de la base de données et des exploitants qui ne font que de l'hébergement / gestion de la production. Dans tous les cas, chacun est responsable d'une partie, plus ou moins importante, des technologies utilisées. Dans la configuration "segmentée", on verra sans doute des architectes chargés de mettre en place une certaine cohérence dans les technologies mises en oeuvre.
 
 
-### Choisir sa tech stack : décider d'investir ?
+## Choisir sa tech stack : décider d'investir ?
 Démarrer un nouveau projet est une occasion d'investir -du temps, de l'argent- pour découvrir et mettre en oeuvre des technos non maîtrisées, plus récentes, spécifiques à un type de problème. Si vous faites du .NET depuis 10 ans, vous pouvez profiter d'un démarrage de projet pour vous lancer sur un serveur d'intégration de données et de calcul en Scala, ou bien quitter AngularJS pour faire du React.
 
 Ce qui implique de passer du temps à découvrir et apprivoiser la techno, et probablement de faire quelques essais infructueux avant de comprendre comment organiser son projet / son code. Cette phase d'apprentissage fera monter le coût de développement. Alors que si j'utilisais un environnement dans lequel je sais démarrer un projet, je saurais répondre aux différents challenges techniques et modéliser les informations pour résoudre les problèmes business. Je connaitrais également les limites de mes outils, et donc j'aurais un cadre pour définir le fonctionnel de mon application et je minimiserais le risque de m'engager dans des solutions techniques sans issue.
@@ -40,7 +40,7 @@ L'investissement est vital pour se développer, rester pertinent et ne pas s'enf
 Une autre considération importante est la connaissance du problème fonctionnel : s'il y a tout à découvrir, parfois mieux vaut utiliser des technos maîtrisées, qui permettent de se concentrer sur la modélisation des enjeux business. Vous pouvez sans trop de souci vous lancer dans la réalisation d'un n-ième CMS en Rust, mais vous devriez peut-être éviter d'essayer de comprendre à la fois Nim et l'organisation de la paye de tous les fonctionnaires français.
 
 
-### Considérations techniques et business
+## Considérations techniques et business
 Dans tech stack, il y a "tech". Je prends en considération un certain nombre d'aspects techniques quand je choisis ma stack. Un peu dans le désordre :
 
 - Adéquation avec le problème business posé : les caractéristiques du problème fonctionnel sont un des premiers critères de choix. Il s'agit avant tout de choisir les bons outils pour le job. Est-ce que le soft devra supporter 100,000 utilisateurs simultanés ? Est-ce qu'il existe des librairies/DSL[^1] pour modéliser le problème ? Est-ce que le soft est critique et doit tourner en 99,99% ?
@@ -54,7 +54,7 @@ Il y a bien sûr beaucoup d'autres critères d'évaluation de sa stack, qui vont
 
 
 
-### Considérations humaines
+## Considérations humaines
 Il ne faut pas oublier la  dimension humaine des projets : on est quasiment toujours amenés à travailler avec d'autres bipèdes, avec leurs forces et leurs points faibles. Et la technologie peut être un levier formidable pour réaliser de grandes choses à plusieurs... Ou pour détruire un ouvrage de qualité en moins de temps qu'il ne faut pour dire "Larry Ellison m'a tuer".
 
 Une caractéristique que j'apprécie est la capacité d'un outil à faire converger le projet, à canaliser les développeurs dans une direction commune, sans avoir deux personnes à plein temps pour intégrer les travaux de trois autres personnes. Les outils ou techniques qui facilitent la communication ou la descriptiion des interfaces utilisées par les développeurs sont à étudier. Personnellement, je raffole des outils qui facilitent la doc des interfaces au sein du code, par exemple [Swagger](http://swagger.io) pour des APIs REST.

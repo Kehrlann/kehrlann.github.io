@@ -21,7 +21,7 @@ l'entretien. Spoiler alert : ça n'a pas été une franche réussite, mais c'est
 bonne occasion d'en tirer quelques réflexions.
 
 
-### Toujours prêt !
+## Toujours prêt !
 J'ai été prévenu un peu au pied levé, le matin pour l'après-midi. J'ai survolé le
 CV du candidat, sans vraiment y prêter attention. Première erreur ! Dans tous les
 cas, il faut venir préparé. Si on veut rater un entretien, voire faire mauvaise
@@ -57,7 +57,7 @@ Une fois le programme mis en place, j'essaye de mettre une durée indicative les
 En plus, ca donne une indication au candidat sur ce qui est attendu de lui.
 
 
-### Relations avec le candidat
+## Relations avec le candidat
 Le candidat qui arrive en entretien vous rencontre pour la première fois, ne connait
 pas les codes de l'entreprise, et, fréquemment, est assez stressé. Il peut donc gaffer,
 ne pas comprendre les attendus, rater des points cruciaux dans la culture ou dans
@@ -83,7 +83,7 @@ Dans ce cas, il faut prévenir *avant* l'entretien, pour que le candidat soit da
 le bon état d'esprit, prenne des notes, etc.
 
 
-### Technique
+## Technique
 Si vous recrutez un profil technique, je recommande vivement de faire un exercice
 technique. En fonction du poste à pourvoir, ça peut être un exercice de conception,
 d'architecture, de code, de bugfix. Mais il faut tester les candidats. Vous seriez
@@ -109,7 +109,7 @@ des recherches est très instructif. Quels sont ses réflexes ? Ses sites de ré
 ? Est-ce qu'il sait formuler ses questions pour un moteur de recherche ?
 
 
-### Clôturer l'entretien
+## Clôturer l'entretien
 La fin de l'entretien permet facilement d'en savoir un peu plus sur la personnalité
 du candidat, son estime de soi, et sa capacité de synthèse. On peut lui demander
 son ressenti et ses réflexions sur l'entretien, à la fois sur la partie personnelle
@@ -125,7 +125,7 @@ message à faire passer sur ces différents points. Le but n'est pas obligatoire
 d'arriver à une décision d'embauche, juste de faire un feedback à chaud - on pourra
 passer plus de temps pour une mûrir une décision d'embauche / de continuer le process.
 
-### Et pour la suite ...
+## Et pour la suite ...
 Je n'ai pas vocation à me spécialiser dans les entretiens techniques, mais c'est
 un domaine très intéressant, et il reste plein de questions ouvertes, que je garde
 dans un coin :

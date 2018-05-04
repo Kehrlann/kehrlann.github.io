@@ -11,13 +11,13 @@ j'apprécie beaucoup le langage Python, notamment pour la qualité des outils et
 des libriaires disponibles. Voici une petite compilation de quelques libs qui
 m'ont tapé dans l'oeil, plus ou moins récemment.
 
-### Pour les programmes en ligne de commande
+## Pour les programmes en ligne de commande
 
 Langage de prototypage par excellence, Python est souvent utilisé pour faire de
 petits utilitaires en ligne de commande - scripts d'archivage, de monitoring,
 que sais-je encore ...
 
-#### click - transformer une fonction en utilitaire ligne de commande
+### click - transformer une fonction en utilitaire ligne de commande
 
 <a href="http://click.pocoo.org/6/" target="_blank">Click</a> est une petite lib écrite
 par <a href="http://lucumr.pocoo.org/about/" target="_blank">Armin Ronacher</a>
@@ -64,7 +64,7 @@ Options:
 {% endhighlight %}
 
 
-#### TQDM, des progress-bar en ligne de commande
+### TQDM, des progress-bar en ligne de commande
 
 <a href="https://github.com/noamraph/tqdm" target="_blank">tqdm</a> permet de
 créer des progress-bar sur un iterable comme un tableau, des résultats sql, etc.
@@ -86,14 +86,14 @@ Counting:  29%|██████               | 12/42 [00:01<00:03,  9.95it/s]
 {% endhighlight %}
 
 
-### Pour le Web
+## Pour le Web
 
 Python est très apprécié pour le web, comme son cousin éloigné Ruby, et ce grâce
 à des frameworks très connus : Django pour l'un, Ruby On Rails pour l'autre.
 Mais Django n'est pas l'Alpha et l'Oméga du développement web en Python, et
 voici quelques librairies dignes d'attention.
 
-#### flask - microframework Web
+### flask - microframework Web
 
 Vous en avez déjà entendu parler, c'est sûr.
 <a href="http://flask.pocoo.org/" target="_blank">Flask</a> est un des frameworks
@@ -111,7 +111,7 @@ Ah ! J'oubliais presque, il a été écrit par Armin Ronacher, cf `click` prése
 ci-dessus ... Vous verrez, ce type est un peu mon héro.
 
 
-#### requests - _le_ client HTTP à utiliser
+### requests - _le_ client HTTP à utiliser
 
 Si vous avez déjà eu à utiliser `urllib3`, vous aurez remarqué que l'API est
 plutôt désagréable à utiliser. Grâce à
@@ -153,7 +153,7 @@ Et on récupère le contenu grâce à `r.json()` :
 {% endhighlight %}
 
 
-#### itsdangerous - pour signer des données
+### itsdangerous - pour signer des données
 
 Dès qu'il y a de la gestion d'utilisateur sur le web, il y a de la gestion de
 mot de passe, et donc une fonctionnalité de "Mot de passe oublié".
@@ -197,7 +197,7 @@ print(s.loads(token + "toto"))
 {% endhighlight %}
 
 
-### Vrac !
+## Vrac !
 
 Il y a des dizaines et des dizaines de librairies de ce genre, et je ne vais pas
 toutes les présenter ici - c'est long, d'écrire ... Je vais quand même lister mes trouvailles récentes :
