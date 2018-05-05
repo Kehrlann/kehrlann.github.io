@@ -7,6 +7,7 @@ body {
 
 #main {
   // TODO: WiP
+  width: 100%;
   max-width: 800px;
 }
 
@@ -17,4 +18,12 @@ body {
 
 #content {
   margin: 2em 1em;
+}
+
+// Code blocks
+figure.highlight
+{
+  max-width: 100%;
+  margin-bottom: 20px;
+  overflow-x: auto;
 }
