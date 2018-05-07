@@ -10,7 +10,7 @@ excerpt:    Retour d'expérience sur la manière de mener des entretiens techniq
 ---
 
 <div id="cover-pic" class="text-center">
-    <img src="/assets/2017-02-26-job-interview.jpg" title="Le stress de l'entretien" />
+    <img src="/assets/2017-02-26-job-interview.jpg" title="Le stress de l'entretien" alt="Le stress de l'entretien" />
 </div>
 
 Il y a quelques semaines, j'ai eu l'occasion de faire passer un entretien technique,

@@ -22,7 +22,7 @@ On parle de tech stack pour designer l'ensemble des composants techniques à met
 La stack peut être plus complexe, intégrer des bases de données, des clients/serveurs de différents protocoles (http pour le web, SMTP pour le mail, RTSP pour la vidéo), mais, encore une fois, l'important est l'interdépendance des composants - Microsoft SQL server ne tournera pas sur Linux ; et mes scripts bash de synchro de données ne seront pas utilisables sous Windows.
 
 <div id="cover-pic" class="text-center">
-    <img src="/assets/2015-11-15-tech_stack.png" title="Exemple de tech stack" />
+    <img src="/assets/2015-11-15-tech_stack.png" title="Exemple de tech stack" alt="exemple de tech stack: Ubuntu (OS), Nginx (serveur web), UWSGI (interface http), Python (langage de programmation), Flask (framework)" />
     <br>
     <i>Un exemple de tech stack pour une petite appli web</i>
 </div>

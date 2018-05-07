@@ -8,7 +8,7 @@ excerpt:    Daniel Garnier-Moiroux is a software engineer, tinkerer of things
 ---
 
 <div id="cover-pic" class="text-center">
-    <img src="/assets/cover.jpg" />
+    <img src="/assets/cover.jpg" alt="Picture of the author in the Catacombs of Paris" />
 </div>
 
 Ingénieur de formation, je me suis spécialisé dans la conception et la mise en oeuvre de systèmes informatiques.  Je travaille actuellement pour une société d'ingénierie logicielle, <a href="https://pivotal.io/labs" target="_blank" rel="noopener">Pivotal Labs</a>.

@@ -11,7 +11,7 @@ excerpt:    Mon premier site, je l'ai fait en suivant studieusement les explicat
 ---
 
 <div id="cover-pic" class="text-center">
-    <img src="/assets/2016-04-02-generation-stackoverflow.png" title="Stackoverflow is down !" />
+    <img src="/assets/2016-04-02-generation-stackoverflow.png" title="Stackoverflow is down !" alt="Stack overflow est en panne !" />
 </div>
 
 

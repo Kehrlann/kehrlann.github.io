@@ -10,7 +10,7 @@ excerpt:    Python est un des langages les plus funs à utiliser, et voici un pe
 ---
 
 <div id="cover-pic" class="text-center">
-    <img src="/assets/python.png" title="Logo Python" />
+    <img src="/assets/python.png" title="Logo Python" alt="Logo Python" />
 </div>
 
 Il y a quelques jours, au hasard d'un projet pro, j'ai eu l'occasion de revenir à mes premières amours, Python, et d'implémenter une petite librairie dans ce langage. J'avais oublié à quel point j'_adore_ Python. C'est à la fois simple comme un jardin Zen et touffu comme la moustache de Nietzsche. Je vous propose un petit tour d'horizon de ce qui m'enchante dans le language.

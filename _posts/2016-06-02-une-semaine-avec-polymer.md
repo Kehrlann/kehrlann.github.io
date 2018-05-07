@@ -9,7 +9,7 @@ excerpt:    Feedback sur l'utilisation du framework JavaScript Polymer de Google
 ---
 
 <div id="cover-pic" class="text-center">
-    <img src="/assets/2016-06-02-polymer.jpg" title="Logo Polymer" />
+    <img src="/assets/2016-06-02-polymer.jpg" title="Logo Polymer" alt="Logo Polymer" />
 </div>
 
 Ah ! Les frameworks JavaScript pour le web... il en sort 12 par an, et à chacun sa philosophie, à chacune sa petite spécificité, son tooling, etc. Il est loin, le temps où on bidouillait du HTML à la main à grands coups de jQuery. Pour ma part, j'ai fait pas mal de Angular 1.X, notamment pour de gros projets professionnels, mais j'ai également eu l'occasion de tester Angular 2 et React sur des petits projets persos, ce qui m'a permis d'avoir un peu de recul sur les philosophies de frameworks JS "à la mode".
@@ -51,7 +51,7 @@ Pour une première appli, il n'y a pas besoin du package complet, il faut simple
 Il faut avouer que, pour du web, ça ressemble vraiment à une appli native :
 
 <div id="cover-pic" class="text-center">
-    <img src="/assets/2016-06-02-demo-ratp.png" title="Appli construite avec Polymer" />
+    <img src="/assets/2016-06-02-demo-ratp.png" title="Appli construite avec Polymer" alt="Capture d'écran d'appli construite avec Polymer" />
 </div>
 
 
