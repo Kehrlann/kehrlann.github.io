@@ -4,6 +4,9 @@ title:  "Génération StackOverflow"
 date:   2016-04-02
 categories: [opinion]
 author: Daniel Garnier-Moiroux
+excerpt:    Mon premier site, je l'ai fait en suivant studieusement les explications
+            et exemples dans un livre spécialisé... C'était la préhistoire, avant
+            StackOverflow.
 ---
 
 <div id="cover-pic" class="text-center">

@@ -4,8 +4,9 @@ title:  "Faire passer un entretien technique"
 date:   2017-02-26
 categories: [recrutement]
 author: Daniel Garnier-Moiroux
+excerpt:    Retour d'expérience sur la manière de mener des entretiens techniques, de
+            la préparation à la clôture de l'entretien.
 ---
-
 
 <div id="cover-pic" class="text-center">
     <img src="/assets/2017-02-26-job-interview.jpg" title="Le stress de l'entretien" />

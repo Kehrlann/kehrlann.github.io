@@ -4,6 +4,8 @@ title:  "Choisir sa tech stack"
 date:   2015-11-10
 categories: tech
 author: Daniel Garnier-Moiroux
+excerpt:    Avant de démarrer un projet, ou avant d'ajouter de nouvelles fonctionnalités
+            il faut choisir la stack technique à employer. Quelques questions à se poser.
 ---
 
 Quand je démarre un nouveau projet, que ce soit à partir de zéro ou en reprenant une base existante, je me pose systématiquement la question de la <a href="https://en.wikipedia.org/wiki/Technology_stack" target="_blank">technology stack</a> à utiliser, c'est à dire l'ensemble des composants logiciels (et éventuellement matériels) à mettre en oeuvre. Ce sont les outils à disposition de l'ingénieur pour résoudre un ensemble de problèmes donnés.

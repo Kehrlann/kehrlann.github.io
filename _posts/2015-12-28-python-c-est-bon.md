@@ -4,6 +4,8 @@ title:  "Python, c'est bon"
 date:   2015-12-28
 categories: [tech, python]
 author: Daniel Garnier-Moiroux
+excerpt:    Python est un des langages les plus funs à utiliser, et voici un petit
+            tour d'horizon de ses meilleures fonctionnalités.
 ---
 
 <div id="cover-pic" class="text-center">
