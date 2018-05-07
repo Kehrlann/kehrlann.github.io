@@ -11,12 +11,12 @@ excerpt:    Daniel Garnier-Moiroux is a software engineer, tinkerer of things
     <img src="/assets/cover.jpg" />
 </div>
 
-Ingénieur de formation, je me suis spécialisé dans la conception et la mise en oeuvre de systèmes informatiques.  Je travaille actuellement pour une société d'ingénierie logicielle, <a href="https://pivotal.io/labs" target="_blank">Pivotal Labs</a>.
+Ingénieur de formation, je me suis spécialisé dans la conception et la mise en oeuvre de systèmes informatiques.  Je travaille actuellement pour une société d'ingénierie logicielle, <a href="https://pivotal.io/labs" target="_blank" rel="noopener">Pivotal Labs</a>.
 Pour en savoir plus sur mon parcours professionnel, jetez un oeil à :
 
-- Mon <a href="http://cv.garnier.wf" target="_blank">CV en ligne</a>
-- Mon <a href="https://www.linkedin.com/in/garniermoiroux" target="_blank">profil LinkedIn</a>
-- Voire mon <a href="http://github.com/Kehrlann" target="_blank">compte github</a>
+- Mon <a href="http://cv.garnier.wf" target="_blank" rel="noopener">CV en ligne</a>
+- Mon <a href="https://www.linkedin.com/in/garniermoiroux" target="_blank" rel="noopener">profil LinkedIn</a>
+- Voire mon <a href="http://github.com/Kehrlann" target="_blank" rel="noopener">compte github</a>
 
 Pour me contacter, vous pouver m'envoyer un mail à
 <a href="mailto:contact@garnier.wf">contact@garnier.wf</a>.

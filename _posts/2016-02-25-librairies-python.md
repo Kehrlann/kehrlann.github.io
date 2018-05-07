@@ -21,9 +21,9 @@ que sais-je encore ...
 
 ### click - transformer une fonction en utilitaire ligne de commande
 
-<a href="http://click.pocoo.org/6/" target="_blank">Click</a> est une petite lib écrite
-par <a href="http://lucumr.pocoo.org/about/" target="_blank">Armin Ronacher</a>
-(<a href="https://github.com/mitsuhiko" target="_blank">github</a>).
+<a href="http://click.pocoo.org/6/" target="_blank" rel="noopener">Click</a> est une petite lib écrite
+par <a href="http://lucumr.pocoo.org/about/" target="_blank" rel="noopener">Armin Ronacher</a>
+(<a href="https://github.com/mitsuhiko" target="_blank" rel="noopener">github</a>).
 Elle permet de créer rapidement des applis Python
 à utiliser en ligne de commande, avec une simple fonction. L'API  est à la fois
 pratique et élégante, et évite de se taper tout le parsing et la validation des
@@ -68,7 +68,7 @@ Options:
 
 ### TQDM, des progress-bar en ligne de commande
 
-<a href="https://github.com/noamraph/tqdm" target="_blank">tqdm</a> permet de
+<a href="https://github.com/noamraph/tqdm" target="_blank" rel="noopener">tqdm</a> permet de
 créer des progress-bar sur un iterable comme un tableau, des résultats sql, etc.
 Très pratique par exemple pour les sysadmin qui créent des petits scripts de
 batch et qui veulent un retour visuel.
@@ -98,7 +98,7 @@ voici quelques librairies dignes d'attention.
 ### flask - microframework Web
 
 Vous en avez déjà entendu parler, c'est sûr.
-<a href="http://flask.pocoo.org/" target="_blank">Flask</a> est un des frameworks
+<a href="http://flask.pocoo.org/" target="_blank" rel="noopener">Flask</a> est un des frameworks
 web les plus connus pour Python. Contrairement à Django, Flask est plutôt simple
 et petit : il est même qualifié de microframework - c'est donc  à vous de
 choisir quelles libs utiliser pour chaque fonctionnalité à dévélopper : login,
@@ -117,7 +117,7 @@ ci-dessus ... Vous verrez, ce type est un peu mon héro.
 
 Si vous avez déjà eu à utiliser `urllib3`, vous aurez remarqué que l'API est
 plutôt désagréable à utiliser. Grâce à
-<a href="http://docs.python-requests.org/en/master/" target="_blank">requests</a>,
+<a href="http://docs.python-requests.org/en/master/" target="_blank" rel="noopener">requests</a>,
 on a enfin accès à une API très naturelle.
 
 {% highlight python %}
@@ -173,7 +173,7 @@ utilisateur visite la page de reset, si la signature correspond bien à son adre
 mail, il a le droit de reset le mot de passe.
 
 Une librairie d'Armin Ronacher (décidément) facilite ce genre de process :
-<a href="http://pythonhosted.org/itsdangerous/" target="_blank">itsdangerous</a>.
+<a href="http://pythonhosted.org/itsdangerous/" target="_blank" rel="noopener">itsdangerous</a>.
 
 {% highlight python %}
 from itsdangerous import URLSafeSerializer
@@ -204,14 +204,14 @@ print(s.loads(token + "toto"))
 Il y a des dizaines et des dizaines de librairies de ce genre, et je ne vais pas
 toutes les présenter ici - c'est long, d'écrire ... Je vais quand même lister mes trouvailles récentes :
 
-- <a href="https://github.com/alecthomas/voluptuous" target="_blank">voluptuous</a> :
+- <a href="https://github.com/alecthomas/voluptuous" target="_blank" rel="noopener">voluptuous</a> :
 validation de schéma JSON.
-- <a href="https://github.com/zestyping/q" target="_blank">q</a> : outils de
+- <a href="https://github.com/zestyping/q" target="_blank" rel="noopener">q</a> : outils de
 logging pour débugger des programmes facilement.
-- <a href="https://tinydb.readthedocs.org/en/latest/" target="_blank">Tinydb</a> :
+- <a href="https://tinydb.readthedocs.org/en/latest/" target="_blank" rel="noopener">Tinydb</a> :
 base de données non relationnelle, avec une belle API. Attention, c'est pas fait
 pour 15 millions de requêtes par seconde ...
-- <a href="https://github.com/kennethreitz/records" target="_blank">Records</a> :
+- <a href="https://github.com/kennethreitz/records" target="_blank" rel="noopener">Records</a> :
 un projet en cours de Kenneth Reitz (l'auteur de requests), pour faire accès
 simple à des bases de données : on écrit du SQL, on obtient des résultats. C'est
 en cours de développement, mais la lecture du code est très intéressante.

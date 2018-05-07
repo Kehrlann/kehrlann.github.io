@@ -13,12 +13,12 @@ excerpt:    Feedback sur l'utilisation du framework JavaScript Polymer de Google
 
 Ah ! Les frameworks JavaScript pour le web... il en sort 12 par an, et à chacun sa philosophie, à chacune sa petite spécificité, son tooling, etc. Il est loin, le temps où on bidouillait du HTML à la main à grands coups de jQuery. Pour ma part, j'ai fait pas mal de Angular 1.X, notamment pour de gros projets professionnels, mais j'ai également eu l'occasion de tester Angular 2 et React sur des petits projets persos, ce qui m'a permis d'avoir un peu de recul sur les philosophies de frameworks JS "à la mode".
 
-Tout récemment, j'ai pris un peu de temps pour jouer avec <a href="https://www.polymer-project.org" target="_blank">Polymer</a>, un autre framework publié par Google. Pour voir à quoi ça ressemble, une <a href="https://ratp.garnier.wf/" target="_blank">démo</a> et le <a href="https://github.com/Kehrlann/pwa-ratp/" target="_blank">repo github</a> associé.
+Tout récemment, j'ai pris un peu de temps pour jouer avec <a href="https://www.polymer-project.org" target="_blank" rel="noopener">Polymer</a>, un autre framework publié par Google. Pour voir à quoi ça ressemble, une <a href="https://ratp.garnier.wf/" target="_blank" rel="noopener">démo</a> et le <a href="https://github.com/Kehrlann/pwa-ratp/" target="_blank" rel="noopener">repo github</a> associé.
 
 ## Polymer, le framework
-Polymer est avant tout un micro-framework, qui permet de mettre en oeuvre la spec "<a href="http://webcomponents.org/" target="_blank">Web Components </a>" du W3C. En gros, il s'agit de créer vos propres tags HTML, avec leur look and feel, leur logique propre et leurs événements personnalisés : c'est un peu l'idée d'Angular avec les Components et autres Directives, ou de React avec les Classes. Ici, on vous offre une gestion d'événements agréable, des facilités de templating HTML (dom-if, dom-repeat) et du databinding. Et c'est tout. Pas de foultitude de services comme AngularJS, c'est beaucoup plus proche de React : à vous d'inventer l'organisation de votre appli, le cycle de vie des composants, la gestion des données, etc.
+Polymer est avant tout un micro-framework, qui permet de mettre en oeuvre la spec "<a href="http://webcomponents.org/" target="_blank" rel="noopener">Web Components </a>" du W3C. En gros, il s'agit de créer vos propres tags HTML, avec leur look and feel, leur logique propre et leurs événements personnalisés : c'est un peu l'idée d'Angular avec les Components et autres Directives, ou de React avec les Classes. Ici, on vous offre une gestion d'événements agréable, des facilités de templating HTML (dom-if, dom-repeat) et du databinding. Et c'est tout. Pas de foultitude de services comme AngularJS, c'est beaucoup plus proche de React : à vous d'inventer l'organisation de votre appli, le cycle de vie des composants, la gestion des données, etc.
 
-Polymer marche principalement à coup <a href="http://www.html5rocks.com/en/tutorials/webcomponents/imports/" target="_blank">d'imports HTML</a>. Il n'est plus nécessaire d'avoir un outil de build compliqué (on vous regarde, grunt, gulp, webpack et consorts) pour packager son appli, il suffit d'utiliser un tag HTML simple :
+Polymer marche principalement à coup <a href="http://www.html5rocks.com/en/tutorials/webcomponents/imports/" target="_blank" rel="noopener">d'imports HTML</a>. Il n'est plus nécessaire d'avoir un outil de build compliqué (on vous regarde, grunt, gulp, webpack et consorts) pour packager son appli, il suffit d'utiliser un tag HTML simple :
 
 {% highlight html %}
     <!-- import du composant -->
@@ -35,11 +35,11 @@ Polymer marche principalement à coup <a href="http://www.html5rocks.com/en/tuto
 
 
 ## Progressive Web Apps, l'autre face de Polymer
-Google a un pied sur chaque rive. D'un côté ils portent et poussent Android et ses applis natives, et ils sont en compétition directe avec le modèle Apple et son iEcosystème. D'un autre côté, ils commencent à saper le concept même d'App Store avec les <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Progressive Web Apps (PWA)</a>. Ce sont des sites webs, conçus avec l'idée de les faire tourner sur mobile. Ils faut qu'ils :
+Google a un pied sur chaque rive. D'un côté ils portent et poussent Android et ses applis natives, et ils sont en compétition directe avec le modèle Apple et son iEcosystème. D'un autre côté, ils commencent à saper le concept même d'App Store avec les <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank" rel="noopener">Progressive Web Apps (PWA)</a>. Ce sont des sites webs, conçus avec l'idée de les faire tourner sur mobile. Ils faut qu'ils :
 
 - aient un look & feel très "app"
 - chargent vite
-- aient un <a href="http://www.html5rocks.com/en/tutorials/service-worker/introduction/" target="_blank">service worker</a> déclaré
+- aient un <a href="http://www.html5rocks.com/en/tutorials/service-worker/introduction/" target="_blank" rel="noopener">service worker</a> déclaré
 - donc fonctionnent en mode offline
 - soient servis en https
 
@@ -56,9 +56,9 @@ Il faut avouer que, pour du web, ça ressemble vraiment à une appli native :
 
 ## Polymer, la boîte à outil
 Car Polymer, en plus d'être un micro-framework, c'est aussi une méga-toolbox, orientée pour faire les apps sur la plateforme web.
-Polymer propose un nombre impressionnant de composants pré-packagés, appelés <a href="https://elements.polymer-project.org/" target="_blank">Elements</a>.
+Polymer propose un nombre impressionnant de composants pré-packagés, appelés <a href="https://elements.polymer-project.org/" target="_blank" rel="noopener">Elements</a>.
 
-- Il y a notamment tout le package "paper" qui propose des éléments graphiques calqués sur les principes <a href="https://material.google.com/" target="_blank">Material Design</a> de Google : des fenêtres modales, des cards, des floating action buttons... De quoi très facilement faire un clone d'appli Android, mais en HTML.
+- Il y a notamment tout le package "paper" qui propose des éléments graphiques calqués sur les principes <a href="https://material.google.com/" target="_blank" rel="noopener">Material Design</a> de Google : des fenêtres modales, des cards, des floating action buttons... De quoi très facilement faire un clone d'appli Android, mais en HTML.
 - Il y a également des Elements "platinum" qui permet, en quelques lignes, de créer et maintenir un service worker, sans avoir à se taper les affreuses APIs natives.
 - Pour tout les éléments techniques, les Elements "iron" sont parfaits : data-binding sur des ressources HTTP, wrappers Flexbox, etc.
 
@@ -104,7 +104,7 @@ La courbe d'apprentissage est très étrange. Ca s'apprend plutôt bien, alors o
 
 Ca manque d'un vrai quickstart pour faire une petit appli complète, la doc est simple mais parfois trop synthétique, il manque les petits détails qui expliquent vraiment le comportement de leurs éléments. Heureusement, on finit par prendre le rythme, et à comprendre où chercher les ressources. Tout d'abord, quoique succinte, la doc est plutôt bien construite. De plus, pour chaque élément, il y a des exemples, dont le code source est disponible sur Github, et c'est probablement ça qui vous sauvera la vie. Enfin, tout le projet est open source, et commes les éléments sont eux-mêmes construits avec Polymer, c'est une excellente source d'inspiration.
 
-Il y a aussi une excellente chaîne Youtube consacrée à Polymer, avec des tutoriaux produits par Google, les <a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsII5c3Mgw6fNYCzaWrsM3sMN" target="_blank">Polycasts</a>. Le sympathique Rob Dodson y détaille l'utilisation des différents Elements, ce qui permet de comprendre les détails obscurs non abordés dans la doc, mais surtout donne un aperçu de l'esprit dans lequel ces Elements ont été conçus.
+Il y a aussi une excellente chaîne Youtube consacrée à Polymer, avec des tutoriaux produits par Google, les <a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsII5c3Mgw6fNYCzaWrsM3sMN" target="_blank" rel="noopener">Polycasts</a>. Le sympathique Rob Dodson y détaille l'utilisation des différents Elements, ce qui permet de comprendre les détails obscurs non abordés dans la doc, mais surtout donne un aperçu de l'esprit dans lequel ces Elements ont été conçus.
 
 
 ## Les limites du modèle
@@ -119,7 +119,7 @@ Parce que je n'ai pas trouvé de bonne transition pour amener cette partie, voic
 - (+) Bower pour récupérer les Elements : parfait.
 - (+) Pas besoin de build son appli, ça marche "out-of-the-box" si on accepte un chargement initial non optimal : excellent idée. Heureusement, d'ailleurs, vu les points négatifs.
 - (-) Devoir ajouter à la main des fichiers incantatoires du genre "sw-import.js" : mmmmmmh pas terrible.
-- (-) <a href="https://github.com/Polymer/vulcanize" target="_blank">Vulcanize</a>, l'outil qui "compile" l'appli en seul fichier : pas encore ça, notamment avec les problèmes de ServiceWorker, où il faut copier des magic strings et déplacer des dossiers bower...
+- (-) <a href="https://github.com/Polymer/vulcanize" target="_blank" rel="noopener">Vulcanize</a>, l'outil qui "compile" l'appli en seul fichier : pas encore ça, notamment avec les problèmes de ServiceWorker, où il faut copier des magic strings et déplacer des dossiers bower...
 
 ## Conclusion
 J'ai fait des choses très intéressantes avec Polymer. Je me suis arraché les cheveux par moment, mais dans l'ensemble, je me suis beaucoup amusé.

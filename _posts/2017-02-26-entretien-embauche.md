@@ -88,7 +88,7 @@ le bon état d'esprit, prenne des notes, etc.
 Si vous recrutez un profil technique, je recommande vivement de faire un exercice
 technique. En fonction du poste à pourvoir, ça peut être un exercice de conception,
 d'architecture, de code, de bugfix. Mais il faut tester les candidats. Vous seriez
-surpris de voir combien sont incapables de faire un simple <a href ="https://en.wikipedia.org/wiki/Fizz_buzz#Programming_interviews" target="_blank">FizzBuzz</a>.
+surpris de voir combien sont incapables de faire un simple <a href ="https://en.wikipedia.org/wiki/Fizz_buzz#Programming_interviews" target="_blank" rel="noopener">FizzBuzz</a>.
 Pourtant les règles sont triviales :
 - pour tous les entiers i entre 1 et 100,
 - si i est divisble par 3, afficher "Fizz",
@@ -97,7 +97,7 @@ Pourtant les règles sont triviales :
 - et dans tous les autres cas, afficher i.
 
 Un développeur normal devrait pouvoir faire l'exercice en une minute.
-Essayez, vous serez surpris - <a href ="https://blog.codinghorror.com/why-cant-programmers-program/" target="_blank">et vous ne serez pas les seuls</a>.
+Essayez, vous serez surpris - <a href ="https://blog.codinghorror.com/why-cant-programmers-program/" target="_blank" rel="noopener">et vous ne serez pas les seuls</a>.
 
 Prévoyez des exercices suffisamment souples pour vous permettre d'explorer des sujets
 différents, et des niveaux de difficulté différents, adaptés au candidat. Le but

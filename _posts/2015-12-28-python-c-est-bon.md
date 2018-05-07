@@ -82,7 +82,7 @@ help(len)
 Et, comble du luxe, Python est multi-paradigmes, ce qui permet de démarrer un projet avec des scripts à droite et à gauche puis ensuite de les consolider en un programme propre et structuré très rapidement, par exemple en y ajoutant un modèle objet.
 
 ### Modules
-La gestion des modules est réalisée avec l'outil _pip_, pour _Pip Installs Packages_, qui va chercher directement les packages dans le repository unifié de Python : <a href="https://pypi.python.org/pypi" target="_blank">PyPI</a>.
+La gestion des modules est réalisée avec l'outil _pip_, pour _Pip Installs Packages_, qui va chercher directement les packages dans le repository unifié de Python : <a href="https://pypi.python.org/pypi" target="_blank" rel="noopener">PyPI</a>.
 
 La richesse de Python vient en grande partie du nombre de packages disponibles. Si vous avez besoin de quelque chose :
 
@@ -91,7 +91,7 @@ La richesse de Python vient en grande partie du nombre de packages disponibles. 
   3. Il y a une documentation claire et concise,
   4. La source est disponible
 
-Je romance peut-être un peu, mais c'est un sentiment général. Je n'ai qu'un contre-exemple en quelques années d'utilisation : il me fallait une petite lib pour sauvegarder des cookies HTTP sur disque dans une base de données SQLite ... Auto-promotion : j'en ai fait une petite librairie, disponible sur pip (`pip install sqlitecookiejar`) ou sur <a href="https://github.com/timsoft-oss/sqlitecookiejar" target="_blank">Github</a>.
+Je romance peut-être un peu, mais c'est un sentiment général. Je n'ai qu'un contre-exemple en quelques années d'utilisation : il me fallait une petite lib pour sauvegarder des cookies HTTP sur disque dans une base de données SQLite ... Auto-promotion : j'en ai fait une petite librairie, disponible sur pip (`pip install sqlitecookiejar`) ou sur <a href="https://github.com/timsoft-oss/sqlitecookiejar" target="_blank" rel="noopener">Github</a>.
 
 ### Déploiement
 Grâce à pip / setuptools, déployer un programme est très simple. En plus, Python étant interprété, pas besoin de précompiler son projet : on peut par exemple puller le code directement depuis un repository git et lancer le programme.
@@ -113,7 +113,7 @@ Enfin, je ne suis pas concerné par la question, mais il existe de très bonnes 
 ## The <span style="text-decoration:line-through;">bad</span> great
 
 ### Philosophie
-Autour de Python s'est construite une "philosophie", un mode de pensée adopté par les utilisateurs et les développeurs, qui transparait dans le code et dans la façon d'utiliser le langage. Je vous invite à lire les 20 aphorismes qui constituent le "<a href="https://www.python.org/dev/peps/pep-0020/" target="_blank">Zen de Python</a>."
+Autour de Python s'est construite une "philosophie", un mode de pensée adopté par les utilisateurs et les développeurs, qui transparait dans le code et dans la façon d'utiliser le langage. Je vous invite à lire les 20 aphorismes qui constituent le "<a href="https://www.python.org/dev/peps/pep-0020/" target="_blank" rel="noopener">Zen de Python</a>."
 
 {% highlight text %}
 Beautiful is better than ugly.
@@ -155,7 +155,7 @@ odd = [x for x in a if (x % 2) == 1]
 #   -> donne [1, 3, 5]
 {% endhighlight %}
 
-De plus, Python est multi-paradigme, et les fonctions sont des "<a href="https://fr.wikipedia.org/wiki/Objet_de_premi%C3%A8re_classe" target="_blank">objets de première classe</a>", ce qui fait qu'on peut les utiliser comme des simples variables, en argument d'autres fonctions. Pour comprendre les concepts de programmation fonctionnelle, un petit exemple illustré. Supposons qu'on définise à la main les fonctions ajout, soustraction, multiplication, etc.
+De plus, Python est multi-paradigme, et les fonctions sont des "<a href="https://fr.wikipedia.org/wiki/Objet_de_premi%C3%A8re_classe" target="_blank" rel="noopener">objets de première classe</a>", ce qui fait qu'on peut les utiliser comme des simples variables, en argument d'autres fonctions. Pour comprendre les concepts de programmation fonctionnelle, un petit exemple illustré. Supposons qu'on définise à la main les fonctions ajout, soustraction, multiplication, etc.
 
 {% highlight python %}
 forbidden_funcs = []
@@ -220,7 +220,7 @@ De plus, il "manque" un certain nombre de fonctionnalités par rapport à d'autr
 
 
 ### IDE, imports, tooling
-S'il y a des bons outils pour travailler avec Python, comme l'éditeur <a href="http://www.jetbrains.com/pycharm" target="_blank">PyCharm de Jetbrains</a>, ils sont payants. Pour le reste, les outils sont plus ou moins puissants, plus ou moins bien intégrés. Les fanas de Linux s'en sortiront avec un vim ou un emacs customisé, mais pour un débutant sur Windows, c'est rude. J'ai essayé il y a longtemps Eclipse pour Python mais j'avais été très déçu par l'expérience. L'autocomplétion, notamment, n'est pas au top.
+S'il y a des bons outils pour travailler avec Python, comme l'éditeur <a href="http://www.jetbrains.com/pycharm" target="_blank" rel="noopener">PyCharm de Jetbrains</a>, ils sont payants. Pour le reste, les outils sont plus ou moins puissants, plus ou moins bien intégrés. Les fanas de Linux s'en sortiront avec un vim ou un emacs customisé, mais pour un débutant sur Windows, c'est rude. J'ai essayé il y a longtemps Eclipse pour Python mais j'avais été très déçu par l'expérience. L'autocomplétion, notamment, n'est pas au top.
 
 Enfin, le système d'import et de gestion de dépendances, à base de "modules" et de "packages" est difficile à appréhender par un débutant. L'absence d'IDE standard qui règle tous ces problèmes en permettant de lier les projets entre eux rend les choses encore plus difficiles pour un débutant.
 
@@ -240,4 +240,4 @@ Pour donner une idée, ma dernière appli était un petit proto de retro-enginee
 
 
 
-[^1]: Read-Eval-Print Loop, technique qui consiste à avoir un terminal qui lit une ligne, l'évalue, éventuellement affiche le résultat dans la sortie standard, puis rend la main. Plus sur <a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop" target="_blank">Wikipédia</a>.
+[^1]: Read-Eval-Print Loop, technique qui consiste à avoir un terminal qui lit une ligne, l'évalue, éventuellement affiche le résultat dans la sortie standard, puis rend la main. Plus sur <a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop" target="_blank" rel="noopener">Wikipédia</a>.
