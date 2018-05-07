@@ -4,6 +4,7 @@ title:  "Une semaine avec Polymer"
 date:   2016-06-02
 categories: [tech, javascript, Polymer]
 author: Daniel Garnier-Moiroux
+lang: fr
 excerpt:    Feedback sur l'utilisation du framework JavaScript Polymer de Google.
 ---
 

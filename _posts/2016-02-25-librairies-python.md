@@ -4,6 +4,7 @@ title:  "Best of de librairies Python"
 date:   2016-02-25
 categories: [tech, python]
 author: Daniel Garnier-Moiroux
+lang: fr
 excerpt:    Best of de libraires Python pour 2015, comme click, TQDM ou bien
             itsdangerous.
 ---

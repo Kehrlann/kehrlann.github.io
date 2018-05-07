@@ -4,6 +4,7 @@ title:  "Choisir sa tech stack"
 date:   2015-11-10
 categories: tech
 author: Daniel Garnier-Moiroux
+lang: fr
 excerpt:    Avant de démarrer un projet, ou avant d'ajouter de nouvelles fonctionnalités
             il faut choisir la stack technique à employer. Quelques questions à se poser.
 ---
