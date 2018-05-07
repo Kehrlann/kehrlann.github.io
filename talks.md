@@ -1,0 +1,34 @@
+---
+layout:     page
+type:       talks
+permalink:  /talks
+excerpt:    Daniel Garnier-Moiroux is a software engineer. Here are some of his
+            public talks about Cloud-y stuff, CI/CD and automation.
+---
+
+<div id="cover-pic" class="text-center">
+    <img src="/assets/talks.jpg" alt="Picture of the author live coding" />
+</div>
+
+
+
+I also do some public speaking from time to time, sometimes at meetups, sometimes
+at conferences, sometime at corporate events. I try to minimize the amount of
+slides - nothing like IDE live-action.
+
+Here are a few examples of my talks. Have fun !
+
+<h1>Talks</h1>
+
+<ul>
+    <li>
+        <span>18 / 04 / 2018 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=4ltDd2lA8rs" target="_blank" rel="noopener">Concourse, outil de CI/CD</a>
+        <span>@ DevoxxFR 2018 (in French)</span>
+    </li>
+    <li>
+        <span>12 / 12 / 2017 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=At0Add4po3s" target="_blank" rel="noopener">Spring Boot + Kotlin</a>
+        <span>@ Spring Meetup Paris (in English, missed the first few minutes of the recording)</span>
+    </li>
+</ul>

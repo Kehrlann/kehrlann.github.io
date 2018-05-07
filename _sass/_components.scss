@@ -1,4 +1,5 @@
 @import "_colors";
+@import "_breakpoints";
 
 hr {
   background-color: $lightgreen;
@@ -43,12 +44,15 @@ hr {
 
   cursor: pointer;
 
+  @media(max-width: $phone) {
+    width: 80px;
+  }
+
   &:hover {
     border-color: $green;
   }
 
   &.active {
-    width: 120px;
     color: white;
     background-color: $green;
     border-color: $green;
