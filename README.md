@@ -2,6 +2,11 @@
 Source code for Daniel Garnier-Moiroux' blog.
 
 ## Todo
-[ ] Remove bootstrap
-[ ] Favicon
+[x] Remove bootstrap
+[x] Favicon
+[ ] Manifest
 [ ] Service worker
+[ ] Add CV
+[ ] Translate blurb
+[ ] Lighthouse all the things
+[ ] Properties on Google Search Console
