@@ -1,7 +1,7 @@
 ---
 layout: page
 type: home
-permalink: /blog/
+permalink: /blog
 type: blog
 excerpt:    Daniel Garnier-Moiroux is a software engineer, tinkerer of things
             and lover of automation. Currently working at Pivotal Labs.
