@@ -4,8 +4,11 @@ const CACHE = 'cache-v1';
 const PRECACHE_URLS = [
     'index.html',
     './', // Alias for index.html
+    '/talks',
+    '/blog',
     'css/main.css',
-    'assets/cover.jpg'
+    'assets/cover.jpg',
+    'assets/talks.jpg'
 ];
 
 // Pre-cache all the things on install
