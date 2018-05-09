@@ -8,17 +8,17 @@ excerpt:    Daniel Garnier-Moiroux is a software engineer, tinkerer of things
 ---
 
 <p class="text-justify">
-    Hello à tous !
+    Hi folks !
     <br>
     <br>
-    Je suis Daniel Garnier-Moiroux, et vous êtes sur le blog où je publie
-    quelques divagations à propos de mon métier, l'informatique au sens
-    large. Vous trouverez des articles sur la technique, mais aussi sur
-    l'organisation des projets informatiques ou les aspects commerciaux
-    des services en informatique.
+    I'm Daniel Garnier-Moiroux, and you are currently visiting the blog
+    where I rave about my craft, software development. You'll find technical
+    articles along with thought pieces about projects, business, HR, etc.
+    Some of them will be in French, some in English. You will find older content,
+    so be warned, the quality may vary.
     <br>
     <br>
-    Bonne lecture !
+    Have a great read !
 </p>
 
 <h1>Articles</h1>
@@ -32,4 +32,4 @@ excerpt:    Daniel Garnier-Moiroux is a software engineer, tinkerer of things
     {% endfor %}
 </ul>
 
-<p style="margin-top:20px;">Abonnement <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+<p style="margin-top:20px;">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">through RSS</a>.</p>
