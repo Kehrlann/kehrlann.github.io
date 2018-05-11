@@ -12,10 +12,10 @@ excerpt:    Daniel Garnier-Moiroux is a software engineer, tinkerer of things
     <br>
     <br>
     I'm Daniel Garnier-Moiroux, and you are currently visiting the blog
-    where I rave about my craft, software development. You'll find technical
-    articles along with thought pieces about projects, business, HR, etc.
-    Some of them will be in French, some in English. You will find older content,
-    so be warned, the quality may vary.
+    where I rave about my craft, software development. Here you will find
+    technical stuff along with thought pieces about projects, business, HR, etc.
+    Some of them will be in French, some in English. Some content is quite old now,
+    so be warned, quality may vary.
     <br>
     <br>
     Have a great read !
