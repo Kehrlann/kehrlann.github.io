@@ -12,12 +12,12 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: $lightgreen;
+    text-decoration: underline;
   }
 }
 
 h1, h2, h3, h4, h5 {
-  color: $lightgreen;
+  color: $green;
   font-weight: 500;
   text-align: left;
 }

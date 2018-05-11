@@ -2,7 +2,7 @@
 @import "_breakpoints";
 
 hr {
-  background-color: $lightgreen;
+  background-color: $green;
   border: none;
   height: 2px;
 }
@@ -45,11 +45,12 @@ hr {
   cursor: pointer;
 
   @media(max-width: $phone) {
-    width: 80px;
+    width: 65px;
   }
 
   &:hover {
     border-color: $green;
+    text-decoration: none;
   }
 
   &.active {
@@ -63,4 +64,40 @@ h2.section-header {
   border-bottom: 2px solid $green;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.left-emboss {
+  border-left: 5px solid $lightgreen;
+  padding-left: 15px;
+
+  h3 {
+    margin-top: .5em;
+  }
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin-top: 20px;
+
+  & > * {
+    flex: 1 1 250px;
+    margin: 1em .5em;
+  }
+}
+
+.social-media-link {
+  & > svg+span {
+    margin-left: 5px;
+  }
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
