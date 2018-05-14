@@ -23,7 +23,7 @@ Here are a few examples of my talks. Have fun !
 <ul>
     <li>
         <span>18 / 04 / 2018 :&nbsp;</span>
-        <a href="https://www.youtube.com/watch?v=4ltDd2lA8rs" target="_blank" rel="noopener">Concourse, outil de CI/CD</a>
+        <a href="https://www.youtube.com/watch?v=moiSC3gmCew" target="_blank" rel="noopener">Concourse, outil de CI/CD</a>
         <span>@ DevoxxFR 2018 (in French)</span>
     </li>
     <li>
