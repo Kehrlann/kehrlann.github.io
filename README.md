@@ -2,11 +2,13 @@
 Source code for Daniel Garnier-Moiroux' blog.
 
 ## Todo
+[ ] Add image for "track your pains" ?
+[ ] Service-worker goes network-first on blog page
 [x] Remove bootstrap
 [x] Favicon
-[ ] Manifest
-[ ] Service worker
-[ ] Add CV
-[ ] Translate blurb
-[ ] Lighthouse all the things
-[ ] Properties on Google Search Console
+[x] Manifest
+[x] Service worker
+[x] Add CV
+[x] Translate blurb
+[x] Lighthouse all the things
+[x] Properties on Google Search Console
