@@ -1,4 +1,4 @@
-const CACHE = 'cache-v5';
+const CACHE = 'cache-v6';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
@@ -26,7 +26,8 @@ self.addEventListener('fetch', event => {
         event.respondWith(
           fetch(event.request)
               .then(response => {
-                  cache.put(event.request, response.clone());
+                  const clonedResponse = response.clone();
+                  caches.open(CACHE).then(cache => cache.put(event.request, clonedResponse));
                   return response;
               })
               .catch(_ => {
