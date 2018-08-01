@@ -16,7 +16,8 @@ I also do some public speaking from time to time, sometimes at meetups, sometime
 at conferences, sometime at corporate events. I try to minimize the amount of
 slides - nothing like IDE live-action.
 
-Here are a few examples of my talks. Have fun !
+Here are a few examples of my talks. I can give variants of these, and other talks,
+at events or meetups, so feel free to ping me or send me an invite !
 
 <h1>Talks</h1>
 
