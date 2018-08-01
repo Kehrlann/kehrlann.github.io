@@ -22,6 +22,18 @@ Here are a few examples of my talks. Have fun !
 
 <ul>
     <li>
+        <span>03 / 07 / 2018 :&nbsp;</span>
+        <span>Microservices with Spring Cloud @ Paris Pivotal Day 2018 (in French)</span>
+    </li>
+    <li>
+        <span>26 / 06 / 2018 :&nbsp;</span>
+        <span>Concourse: Container-first CI/CD @ Paris Container Day 2018 (in French)</span>
+    </li>
+    <li>
+        <span>24 / 04 / 2018 :&nbsp;</span>
+        <span>Cloud-Native applications made easy with Spring, Kotlin and PCF @ Barcelona Software Evening #bcnSWeven (in English)</span>
+    </li>
+    <li>
         <span>18 / 04 / 2018 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=moiSC3gmCew" target="_blank" rel="noopener">Concourse, outil de CI/CD</a>
         <span>@ DevoxxFR 2018 (in French)</span>
