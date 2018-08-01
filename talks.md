@@ -21,7 +21,7 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <h1>Talks</h1>
 
-<ul>
+<ul class="no-justify roomy-list">
     <li>
         <span>03 / 07 / 2018 :&nbsp;</span>
         <span>Microservices with Spring Cloud @ Paris Pivotal Day 2018 (in French)</span>
