@@ -1,4 +1,4 @@
-const CACHE = 'cache-v4';
+const CACHE = 'cache-v5';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
@@ -24,18 +24,14 @@ self.addEventListener('install', event => {
 self.addEventListener('fetch', event => {
     if (event.request.url.startsWith(self.location.origin)) {
         event.respondWith(
-            caches.match(event.request).then(cachedResponse => {
-                const fetchResponse = caches.open(CACHE).then(cache => {
-                    return fetch(event.request).then(response => {
-                        // Put a copy of the response in the runtime cache.
-                        return cache.put(event.request, response.clone()).then(() => {
-                            return response;
-                        });
-                    });
-                });
-
-                return cachedResponse || fetchResponse;
-            })
+          fetch(event.request)
+              .then(response => {
+                  cache.put(event.request, response.clone());
+                  return response;
+              })
+              .catch(_ => {
+                  return caches.match(event.request);
+              })
         );
     }
 });
