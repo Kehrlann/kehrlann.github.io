@@ -28,7 +28,8 @@ at events or meetups, so feel free to ping me or send me an invite !
     </li>
     <li>
         <span>26 / 06 / 2018 :&nbsp;</span>
-        <span>Concourse: Container-first CI/CD @ Paris Container Day 2018 (in French)</span>
+        <a href="https://www.youtube.com/watch?v=Qv9FsIlyN-U" target="_blank" rel="noopener">Concourse: Container-first CI/CD</a>
+        <span>@ Paris Container Day 2018 (in French)</span>
     </li>
     <li>
         <span>24 / 04 / 2018 :&nbsp;</span>
