@@ -23,6 +23,10 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>06 / 07 / 2019 :&nbsp;</span>
+        <span>How to containerize your Spring Boot App @ Pivotal Paris (in French)</span>
+    </li>
+    <li>
         <span>20 / 09 / 2018 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=6XzG7u5fcBo" target="_blank" rel="noopener">Microservices with Spring Cloud & Kotlin</a>
         <span>@ Spring Meetup Paris (in French)</span>
