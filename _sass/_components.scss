@@ -7,6 +7,11 @@ hr {
   height: 2px;
 }
 
+dd {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
 #cover-pic
 {
   text-align: center;
@@ -100,4 +105,16 @@ h2.section-header {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+.inline-code {
+  max-width:100%;
+  overflow: auto;
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+  font-family: monospace;
+  word-break: break-all;
 }

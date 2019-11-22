@@ -6,20 +6,20 @@ excerpt:    Daniel Garnier-Moiroux is a software engineer. Here are some of his
             open source contributions.
 ---
 
-<!--
-<div id="cover-pic" class="text-center">
-    <img src="/assets/talks.jpg" alt="Picture of the author live coding" />
-</div>
--->
+<h1>Contributing to open source</h1>
 
 In my spare time, I contribute to some open source projects, either tools I use or
-projects I'm interested in. Here is a short list:
+projects I'm interested in. It started by fixing bugs in tools or libs I used ; and
+I grew attached to some of the projects. If you want some help to start contributing,
+but you don't know where to start, feel free to ping me. I'd be glad to give you a 
+hand. Also, you could be interested in [Hackergarten meetups](https://hackergarten.net/)
+Here is a short list of my contributions:
 
-<h1>Contributions</h1>
+<br>
 
-<dl class="no-justify roomy-list">
+<dl class="roomy-list">
   <dt><a href="https://github.com/ilearnio/module-alias" target="_blank" rel="noopener">module-alias</a></dt>
-  <dd>A node library, to register aliases of directories, and use custom module paths. This avoids horrible import paths that look like <span class="inline-code">../../../../../some/very/deeply/nested/module</span>, and have something like <span class="inline-code">`@deep/module`</span> instead. I'm one of the maintainers.</dd>
+  <dd>A node library, to register aliases of directories, and use custom module paths. This avoids horrible import paths that look like <span class="inline-code">../../../../../some/very/deeply/nested/module</span> and have something like <span class="inline-code">`@deep/module`</span> instead. I'm one of the maintainers.</dd>
 
   <dt><a href="https://github.com/git-duet/git-duet" target="_blank" rel="noopener">git-duet</a></dt>
   <dd>A simple tool that tracks the identity of both people working in a pair when they make some git commits. It does so by leveraging both the git author and the git committer. I've contributed to make the experience better when trying to use "Co-authored-by", reducing the possible failures and having more helpful error messages when failing. I've also simplified testing for developers.</dd>
