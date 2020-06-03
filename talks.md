@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>19 / 12 / 2019 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=LPu3CQUulz0" target="_blank" rel="noopener">Spring Boot in a Container</a>
+        <span>@ Spring Meetup Paris (in French)</span>
+    </li>
+    <li>
         <span>06 / 07 / 2019 :&nbsp;</span>
         <span>How to containerize your Spring Boot App @ Pivotal Paris (in French)</span>
     </li>
