@@ -27,6 +27,9 @@ Here is a short list of my contributions:
   <dt><a href="https://projectriff.io/" target="_blank" rel="noopener">Riff</a></dt>
   <dd>Riff is for functions ! riff is an Open Source platform for building and running Functions, Applications, and Containers on Kubernetes. I've contributed to the node function invoker, and to the gateway that ingests HTTP requests. I've done some refactoring and added a few tests.</dd>
 
+  <dt><a href="https://github.com/nykula/connect-typeorm" target="_blank" rel="noopener">Connect-Typeorm</a></dt>
+  <dd>A TypeORM-based session store for ExpressJS. I have provided test examples for handling database errors, and contributed documentation.</dd>
+
   <dt><a href="https://github.com/pivotal/workstation-setup" target="_blank" rel="noopener">Pivotal workstation setup</a></dt>
   <dd>This project automates the process of setting up a new Pivotal machine using a simple Bash script. I've fixed a few things here and there.</dd>
 
