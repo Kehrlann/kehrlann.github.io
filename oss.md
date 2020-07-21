@@ -35,4 +35,7 @@ Here is a short list of my contributions:
 
   <dt><a href="https://github.com/pivotal/postfacto" target="_blank" rel="noopener">Postfacto</a></dt>
   <dd>Postfacto helps teams run great retrospectives remotely. I've helped with deployment scripts.</dd>
+
+  <dt><a href="https://github.com/maxbrunsfeld/counterfeiter" target="_blank" rel="noopener">Counterfeiter</a></dt>
+  <dd>Counterfeiter is Go mocking library, which allows you to simply generate test doubles for a given interface. I have fixed some tests.</dd>
 </dl>
