@@ -19,7 +19,7 @@ Here is a short list of my contributions:
 
 <dl class="roomy-list">
   <dt><a href="https://github.com/spring-projects-experimental/spring-authorization-server" target="_blank" rel="noopener">Spring Authorization Server</a></dt>
-  <dd>This project delivers OAuth 2.0 Authorization Server support to the Spring community, as part of the Spring Security framework. I have implemented support for <a href="https://tools.ietf.org/html/rfc7636" target="_blank" rel="noopener">RFC 7636 - Proof Key for Code Exchange (PKCE)</a>.</dd>
+  <dd>This project delivers OAuth 2.0 Authorization Server support to the Spring community, as part of the Spring Security framework. I have implemented support for <a href="https://tools.ietf.org/html/rfc7636" target="_blank" rel="noopener">RFC 7636 - Proof Key for Code Exchange (PKCE)</a> and <a href="https://openid.net/specs/openid-connect-discovery-1_0.html" target="_blank" rel="noopener">OpenID Connect Discovery endpoint</a>.</dd>
 
   <dt><a href="https://github.com/ilearnio/module-alias" target="_blank" rel="noopener">module-alias</a></dt>
   <dd>A node library, to register aliases of directories, and use custom module paths. This avoids horrible import paths that look like <span class="inline-code">../../../../../some/very/deeply/nested/module</span> and have something like <span class="inline-code">`@deep/module`</span> instead. I'm one of the maintainers.</dd>
