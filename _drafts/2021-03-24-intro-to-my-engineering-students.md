@@ -9,13 +9,14 @@ excerpt:    "To my 3rd-year engineering students: what you'll be learning
             in this class, what you will NOT be learning, and why."
 ---
 
-As I may have mentioned before (or not?), I teach Computer-Science-slash-Software-Engineering classes at my "alma mater", [Mines ParisTech](), in Paris, France 🇫🇷. This engineering school system is a French educational idiosyncrasy[^1].
+As I may have mentioned before (or not?), I teach Computer-Science-slash-Software-Engineering classes at my "alma mater", [Mines ParisTech](https://www.minesparis.psl.eu/), in Paris, France. This engineering school system is a French educational idiosyncrasy[^1].
 
 Our "average" student, bright and smart, very good at getting great scores on maths tests, is thrown for the first time into a "pick your own adventure" type of education. And they're forced to go through intro courses that they may or may not be interested in, ranging from "I'm passionate about computer stuff" to "computers hate me, and I hate them back". Courses such as basic economics, mechanical engineering or the one I teach, Computer Science-Software Engineer. I get a group of 20 students and have to teach them the basics of programming and CS. I've given that course twice, once in Java and once in Python. I'm finally getting a better idea of what I would like to tell my students before I start the class.
 
 ## What this class is about
 
 First and foremost, why are you here?
+
 - What this is about
 - What this is NOT about
 - Why
