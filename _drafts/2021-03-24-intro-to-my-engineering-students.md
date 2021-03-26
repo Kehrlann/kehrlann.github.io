@@ -38,13 +38,13 @@ And modeling the world in terms of abstract "trees", "graphs", "links" and "node
 
 ## Grading
 
-Last but not least
-#### TODO
-#### TODO
-#### TODO
-#### TODO
-#### TODO
-#### TODO
+With that in mind, here's how we will grade your work. Before every class, we will have a simple quizz, reviewing the notions the we went through in the previous week. Every week we'll hand out lab assignments, which we will collect through GitHub and make a simple quality assessment. Remember to always turn in your assignments, even incomplete. They must AT LEAST work without syntactical errors.
+
+We will finish the semester with a take-home exam, a problem that you will have to solve using the tools you will have acquired - don't worry, we will be here to answer questions and offer guidance when you're working on that project! That exam will have automated tests that will amount for half of the points, and the remain half will be qualitative review of your work (readability, reusability, use of relevant datastructures, etc). So you should be able to get a good sense of the exam grade you'll have - if 0 tests pass, that a maximum of 10/20 on the whole exam. 
+
+We'll make a weighted average of these. The exam will make up the majority of the final grade, then lab work, then quizzes.
+
+---
 
 [^1]: For those of you that don't know the French education system, this "engineering school" comes after two years of "prep school" where you toil away doing 10 to 15 hours of math a week, same in physics. Then you take a few exams, and depending on your rank you get into these schools. They may have specialties, for example Supaéro students study aeronautics-related stuff, while others may be more "generalist schools", like Mines. In that case, you go through a bunch of management-adjacent classes, of you get through intro classes into various fields, and then you choose a major, such as logistics, innovation sociology, quantitative finance, IT management or geology (this originally being the school of Mines, after all). After three years, they'll get a Master's degree.
 
