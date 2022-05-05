@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>20 / 04 / 2022 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=wYR6L_1Jb4I" target="_blank" rel="noopener">Spring Security, décodage et démystification 🕵️</a>
+        <span>@ DevoxxFR (in French)</span>
+    </li>
+    <li>
         <span>19 / 12 / 2019 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=LPu3CQUulz0" target="_blank" rel="noopener">Spring Boot in a Container</a>
         <span>@ Spring Meetup Paris (in French)</span>
