@@ -24,6 +24,10 @@ Here is a short list of my contributions:
   <dt><a href="https://github.com/ilearnio/module-alias" target="_blank" rel="noopener">module-alias</a></dt>
   <dd>A node library, to register aliases of directories, and use custom module paths. This avoids horrible import paths that look like <span class="inline-code">../../../../../some/very/deeply/nested/module</span> and have something like <span class="inline-code">`@deep/module`</span> instead. I'm one of the maintainers.</dd>
 
+  <dt><a href="https://github.com/spring-projects/spring-security" target="_blank" rel="noopener">Spring Security</a></dt>
+  <dd>Spring Security provides security services for the Spring framework. I've contributed to SAML
+  client and OAuth2 client, with various small extensions and fixes.</dd>
+
   <dt><a href="https://github.com/git-duet/git-duet" target="_blank" rel="noopener">git-duet</a></dt>
   <dd>A simple tool that tracks the identity of both people working in a pair when they make some git commits. It does so by leveraging both the git author and the git committer. I've contributed to make the experience better when trying to use "Co-authored-by", reducing the possible failures and having more helpful error messages when failing. I've also simplified testing for developers.</dd>
 
