@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>09 / 06 / 2022 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=rsJovUjXK-Q" target="_blank" rel="noopener">Senior dev, mentor, prof... même combats, même techniques!</a>
+        <span>@ DevFest Lille (in French)</span>
+    </li>
+    <li>
         <span>20 / 04 / 2022 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=wYR6L_1Jb4I" target="_blank" rel="noopener">Spring Security, décodage et démystification 🕵️</a>
         <span>@ DevoxxFR (in French)</span>
