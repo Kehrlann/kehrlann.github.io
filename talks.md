@@ -23,9 +23,12 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
-        <span>09 / 06 / 2022 :&nbsp;</span>
-        <a href="https://www.youtube.com/watch?v=rsJovUjXK-Q" target="_blank" rel="noopener">Senior dev, mentor, prof... même combats, même techniques!</a>
-        <span>@ DevFest Lille (in French)</span>
+        <span>25 / 05 / 2022 :&nbsp;</span>
+        <a href="https://vimeo.com/728604548" target="_blank" rel="noopener">Senior dev, mentor, prof... même combats, même techniques!</a>
+        <span>@ MiXiT (in French),</span>
+        <span>
+          also <a href="https://www.youtube.com/watch?v=rsJovUjXK-Q" target="_blank" rel="noopener">@DevFest Lille</a> (in French)
+        </span>
     </li>
     <li>
         <span>20 / 04 / 2022 :&nbsp;</span>
