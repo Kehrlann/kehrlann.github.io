@@ -29,7 +29,7 @@ at events or meetups, so feel free to ping me or send me an invite !
     </li>
     <li>
         <span>25 / 05 / 2022 :&nbsp;</span>
-        <a href="https://vimeo.com/728604548" target="_blank" rel="noopener">Senior dev, mentor, prof... même combats, même techniques!</a>
+        <a href="https://vimeo.com/728604548" target="_blank" rel="noopener">Senior dev, mentor, prof... même combat, mêmes techniques!</a>
         <span>@ MiXiT (in French),</span>
         <span>
           also <a href="https://www.youtube.com/watch?v=rsJovUjXK-Q" target="_blank" rel="noopener">@DevFest Lille</a> (in French)
