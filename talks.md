@@ -78,3 +78,16 @@ at events or meetups, so feel free to ping me or send me an invite !
         <span>@ Spring Meetup Paris (in English, missed the first few minutes of the recording)</span>
     </li>
 </ul>
+
+<h1>They've said nice things</h1>
+
+
+<div class="left-emboss">
+Salut!
+<p>
+je voulais juste te laisser un message pour te dire que je viens de regarder ton talk sur Spring Security Devoxx FR,
+c'est de loin pas le 1er que je regarde, mais de loin le meilleur. J'ai compris énormément de choses sur le fonctionnement
+du framework (filtres et providers), merci beaucoup!
+</p>
+- Xavier Kress
+</div>
