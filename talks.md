@@ -91,3 +91,15 @@ du framework (filtres et providers), merci beaucoup!
 </p>
 - Xavier Kress
 </div>
+
+<div class="left-emboss">
+Hello Daniel
+<p>
+I attended yesterday's VoxxedDays and I wanted to tell you that the talk you held about spring-security was very good.
+Good pace and I had a good understanding.
+</p>
+<p>
+You showed us very nice insights with very good examples [...].
+</p>
+- Moritz Wirth
+</div>
