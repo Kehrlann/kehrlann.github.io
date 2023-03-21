@@ -92,6 +92,8 @@ du framework (filtres et providers), merci beaucoup!
 - Xavier Kress
 </div>
 
+<p>&nbsp;</p>
+
 <div class="left-emboss">
 Hello Daniel
 <p>
