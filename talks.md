@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>16 / 03 / 2023 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=TrCLf9zAQfs" target="_blank" rel="noopener">Spring Security: The Good Parts™</a>
+        <span>@ VoxxedDays Zürich (in English)</span>
+    </li>
+    <li>
         <span>13 / 10 / 2022 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=iJ2muJniikY" target="_blank" rel="noopener">Spring Security, demystified 🕵️</a>
         <span>@ DevoxxBE (in English)</span>
