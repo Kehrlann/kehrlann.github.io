@@ -88,6 +88,17 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 
 <div class="left-emboss">
+Hi Daniel,
+<p>
+I just wanted to say thanks for the perfect talk on Spring Security during Devoxx Belgium 2022. Personally I think you are better at live-coding while talking than Venkat. Explaining the concepts, and showing how to find them inside Spring Security was very clear and will help me implement more proper security practices in the Spring applications for my daily job.
+</p>
+Thanks, kind regards,<br>
+- Hidde Wieringa
+</div>
+
+<p>&nbsp;</p>
+
+<div class="left-emboss">
 Salut!
 <p>
 je voulais juste te laisser un message pour te dire que je viens de regarder ton talk sur Spring Security Devoxx FR,
