@@ -25,7 +25,8 @@ at events or meetups, so feel free to ping me or send me an invite !
     <li>
         <span>2023-03-16 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=TrCLf9zAQfs" target="_blank" rel="noopener">Spring Security: The Good Parts™</a>
-        <span>@ VoxxedDays Zürich (in English)</span>
+        <span>@ VoxxedDays Zürich (in English)</span>, also
+        <span><a href="https://www.youtube.com/watch?v=qzK0H0vfjl8" target="_blank" rel="noopener">@ VoxxedDays Luxembourg (in French)</a></span>
     </li>
     <li>
         <span>2022-10-13 :&nbsp;</span>
