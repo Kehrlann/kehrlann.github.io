@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2023-08-21 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=zU-_2UIDAc0" target="_blank" rel="noopener">Securing Web Apps in Kubernetes Using Spring Authorization Server</a>
+        <span>@ SpringOne/VMware Explore (in English)</span>
+    </li>
+    <li>
         <span>2023-07-11 :&nbsp;</span>
         OAuth2, OpenID: le SSO en live-coding et sans framework
         <span>@ RivieraDEV (in French)</span>, with
