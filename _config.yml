@@ -2,9 +2,8 @@
 title: DGM's blog
 email: contact@garnier.wf
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Daniel Garnier-Moiroux is a software engineer, tinkerer of things
+  and lover of automation. Currently working at VMware, on Spring.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://garnier.wf" # the base hostname & protocol for your site
 twitter_username: jekyllrb
