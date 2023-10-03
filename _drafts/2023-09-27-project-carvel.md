@@ -9,9 +9,10 @@ excerpt:    "Project Carvel is a very neat suite of tools for making YAML
             blobs and then turning those into running stuff on Kubernetes."
 ---
 
-Last week, I spoke about [Project Carvel](https://carvel.dev) at [Cloud Native Day](cloudnativeday.ch/) 
+Last week, I spoke about [Project Carvel](https://carvel.dev) at [Cloud Native Day](cloudnativeday.ch/)
 in Bern, Switzerland 🇨🇭. What a delightful event! Great speaker roster, interesting content, lively
-crowd to chat... All brewing together for fascinating conversations. Anyway.
+crowd to chat... All brewing together for fascinating conversations. Anyway. If you want to see me
+show off live-coding some Carvel stuff, it's [available on YouTube](https://www.youtube.com/watch?v=Tm2n674Q8aY).
 
 My talk was well received, and ALL of the tools I showcased found supporters and people willing to
 try them out. Great feat, considering I showcased 5 out of the 7 tools there are in the Carvel
@@ -59,19 +60,149 @@ for your developers rather than applying raw YAML.
 And the three other tools are useful in their own right!
 
 
-## YTT takes valid YAML as input, why is that useful?
+## ytt takes valid YAML as input, why is that useful?
 
 Question:
 
 > What are the benefits still having valid yaml when using carvel? Syntax errors will still need to
 > be adressed by a specific carvel linter.
 
-# TODO: raw answer
+That's an interesting question. When I talk about YAML correctness and ytt, I mean multiple things.
 
-For the “valid YAML” part of YTT, eh, I’m not sure that’s the most valuable part of it. 
+First, it means ytt won't process and invalid YAML program and that it is indeed processing YAML
+structures, not raw text.
 
-Still, you can do “progressive enhancements”, where you have a valid YAML document that also has extra features in the form of ytt annotations. Imagine a valid Kubernetes object, that you can apply as-is…. but if you run it through YTT, it adds annotations to the object. Helm can’t do that. And that’s not limited to Kubernetes objects as with Kustomize.
+The following is not a valid ytt program, because it's not a valid YAML document:
 
-It’s still a program though, so you are right that you have to actually run it before you get feedback on whether it is correct (or have a linter but i don’t think this exists).
+```yaml
+foo: 42
+    bar: 1337
+```
 
-I like that it refuses to create invalid YAML - I think if you mess your YAML with helm it  won’t tell you. You have to try to apply it before you know it’s a problem. So ytt removes one class of issues - it doesn’t mean it’s a valid k8s object but at least it’s valid YAML!
+Trying to process that with ytt will throw an error, e.g.: `ytt: Error: Unmarshaling YAML template 
+'example.yml': yaml: line 2: mapping values are not allowed in this context `
+
+So the feedback is really fast, compared to a text-processing engine which may produce invalid YAML,
+whcih then gets rejected by a later program.
+
+Second, a full ytt program, with annotations, is valid YAML document, even if it does not make a
+ton of sense. Consider the following example:
+
+```yaml
+#@ load("@ytt:data", "data")
+
+#@ def app_configmap(app_name, app_html):
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: #@ app_name
+  namespace: default
+data:
+  index.html: #@ app_html
+#@ end
+
+#@ for/end app in data.values.apps:
+--- #@ app_configmap(app.name, app.html)
+```
+
+This is a valid ytt program, and a valid YAML document. In fact, if you feed it in to `yq` and strip
+the comments, you get yaml back:
+
+```yaml
+# run `yq '... comments=""' example.yml` and get the following output:
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name:
+  namespace: default
+data:
+  index.html:
+---
+```
+
+The example above is not super telling, but one could imagine a way of doing progressive
+enhancements, by adding things only if the document is run through ytt:
+
+```yaml
+#@ load("@ytt:data", "data")
+#@ load("@ytt:template", "template")
+
+#@ def annotations():
+#@  return {
+#@    "annotations": {
+#@      "kapp.k14s.io/versioned": "",
+#@      "kapp.k14s.io/versioned-keep-original": ""
+#@    }
+#@  }
+#@ end
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-website
+  namespace: default
+  #@ if "kapp_support" in data.values:
+  #@ template.replace(annotations())
+  #@ end
+data:
+  index.html: Hello world!
+```
+
+If you apply the above to a kubernetes cluster directly, or run it through yq, you get a very simple
+`ConfigMap`:
+
+```yaml
+# run `yq '... comments=""' example.yml` and get the following output:
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-website
+  namespace: default
+data:
+  index.html: Hello world!
+```
+
+But applying ytt with `--data-value kapp_support=True` yields a different output:
+
+```yaml
+# run `ytt -f example.yml --data-value kapp_support=True` and get the following output:
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-website
+  annotations:
+    kapp.k14s.io/versioned: ""
+    kapp.k14s.io/versioned-keep-original: ""
+data:
+  index.html: Hello world!
+```
+
+That example is simple but showcases a `ytt` program that is useful even distributed as "raw" yaml:
+it does something, it can be applied to a cluster. But with `ytt` you have more customizations
+available.
+
+One can even embed overlays directly in the document for meaningful transforms, all while keeping a
+valid "raw" yaml doc. For example, if you want to update the name of the above `ConfigMap`, you can
+add the following ytt program - it changes the name of the `ConfigMap` to `updated`. The "raw"
+yaml file just has an empty document at the end.
+
+```yaml
+#@ load("@ytt:overlay", "overlay")
+
+#@ def some_func(current, _):
+#@ new = dict(**current)
+#@ new_metadata = dict(**new["metadata"])
+#@ new_metadata["name"] = "updated"
+#@ new["metadata"] = new_metadata
+#@ return new
+#@ end
+
+#@ cm = {"kind":"ConfigMap","metadata":{"name":"my-website"}}
+
+#@overlay/match by=overlay.subset(cm)
+#@overlay/replace via=some_func
+---
+```
+
+> 💡 Caveat: I've never actually used this in practice. All my ytt programs run through ytt.
