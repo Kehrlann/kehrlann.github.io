@@ -123,6 +123,36 @@ su debug-user
 ls /proc/1/root/
 ```
 
+## Inspecting the filesystem at runtime - with node access!
+
+Edit 2023-10-03: user [@clementnuss](https://twitter.com/clementnuss) pointed out it can be simple
+with access to the Node running the Pod. First get into the Node, for example with Kind:
+
+```bash
+docker exec -it kind-control-plane /bin/bash
+```
+
+Then from there, you'll be doing something similar of what you've been doing above, but this time
+we'll use another utility, `nsenter`:
+
+```bash
+# Grab process id
+ps -axo pid,user,group,comm,args
+
+# output example
+# PID   USER     GROUP    COMMAND         COMMAND
+# 1786  1001     root     dex             dex serve /config/dex-config.yml
+# ...
+
+# Run commands in that namespace
+nsenter --target 1786 ls /proc/1786/root
+
+# Or even run a full shell
+nsenter --target 1786 /bin/bash
+```
+
+---
+
 Hope this helps :)
 
 [^1]: for example, the [paketo ca-certificates](https://github.com/paketo-buildpacks/ca-certificates)
