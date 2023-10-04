@@ -66,7 +66,7 @@ And the three other tools are useful in their own right!
 Question:
 
 > What are the benefits still having valid yaml when using carvel? Syntax errors will still need to
-> be adressed by a specific carvel linter.
+> be addressed by a specific carvel linter.
 
 That's an interesting question. When I talk about YAML correctness and ytt, I mean multiple things.
 
