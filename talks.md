@@ -23,6 +23,16 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2023-10-05 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=wP4TVTvYL0Y" target="_blank" rel="noopener">OAuth2, OpenID: live coding SSO, from first principles By Daniel Garnier Moiroux </a>
+        <span>@ Devoxx Belgium (in English)</span>
+    </li>
+    <li>
+        <span>2023-09-21 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=Tm2n674Q8aY" target="_blank" rel="noopener">The Carvel toolsuite: build, configure, deploy k8s apps, following the Unix philosophy</a>
+        <span>@ Swiss Cloud Native Day (in English)</span>
+    </li>
+    <li>
         <span>2023-08-21 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=zU-_2UIDAc0" target="_blank" rel="noopener">Securing Web Apps in Kubernetes Using Spring Authorization Server</a>
         <span>@ SpringOne/VMware Explore (in English)</span>
