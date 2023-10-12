@@ -24,7 +24,7 @@ at events or meetups, so feel free to ping me or send me an invite !
 <ul class="no-justify roomy-list">
     <li>
         <span>2023-10-05 :&nbsp;</span>
-        <a href="https://www.youtube.com/watch?v=wP4TVTvYL0Y" target="_blank" rel="noopener">OAuth2, OpenID: live coding SSO, from first principles By Daniel Garnier Moiroux </a>
+        <a href="https://www.youtube.com/watch?v=wP4TVTvYL0Y" target="_blank" rel="noopener">OAuth2, OpenID: live coding SSO, from first principles</a>
         <span>@ Devoxx Belgium (in English)</span>
     </li>
     <li>
