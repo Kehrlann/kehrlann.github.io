@@ -39,7 +39,7 @@ at events or meetups, so feel free to ping me or send me an invite !
     </li>
     <li>
         <span>2023-07-11 :&nbsp;</span>
-        OAuth2, OpenID: le SSO en live-coding et sans framework
+        <a href="https://www.youtube.com/watch?v=hcTxPyMvHV8" target="_blank" rel="noopener">OAuth2, OpenID: le SSO en live-coding et sans framework</a>
         <span>@ RivieraDEV (in French)</span>, with
         <a href="https://garnier.wf/sso-live-coding/" target="_blank" rel="noopener">slides</a>
     </li>
