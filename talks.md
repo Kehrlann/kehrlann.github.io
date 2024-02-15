@@ -23,6 +23,16 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2024-02-01 :&nbsp;</span>
+        OAuth2, OpenID: le SSO en live-coding et sans framework (<a href="https://github.com/Kehrlann/sso-live-coding" target="_blank" rel="noopener">code</a>)
+        <span>@ SnowCamp (French)</span>
+    </li>
+    <li>
+        <span>2023-11-09 :&nbsp;</span>
+        Spring Security: The Good Parts, 4h architecture workshop (<a href="https://github.com/Kehrlann/spring-security-architecture-workshop/" target="_blank" rel="noopener">course material</a>)
+        <span>@ J-Fall (in English)</span>
+    </li>
+    <li>
         <span>2023-10-05 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=wP4TVTvYL0Y" target="_blank" rel="noopener">OAuth2, OpenID: live coding SSO, from first principles</a>
         <span>@ Devoxx Belgium (in English)</span>
