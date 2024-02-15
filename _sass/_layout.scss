@@ -1,3 +1,5 @@
+@import "_breakpoints";
+
 body {
   overflow-y: scroll;
   display: flex;
@@ -7,7 +9,7 @@ body {
 
 #main {
   width: 100%;
-  max-width: 800px;
+  max-width: $width;
 }
 
 #header {
@@ -19,18 +21,27 @@ body {
   margin: 2em 1em;
 }
 
-// Code blocks
-figure.highlight
-{
-  max-width: 100%;
-  margin-bottom: 20px;
-  overflow-x: auto;
-}
-
 li {
   margin-bottom: 5px;
 }
 
 ul.roomy-list > li {
   margin-bottom: 10px;
+}
+
+// syntax highlighting
+pre.highlight {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 10px;
+  font-size: .9rem;
+  border-radius: 2px;
+  overflow: auto;
+
+  @media(min-width: $width) {
+    margin-left: max(calc(-1*(100vw - #{$width})/2), -100px);
+    margin-right: max(calc(-1*(100vw - #{$width})/2), -100px);
+  }
 }
