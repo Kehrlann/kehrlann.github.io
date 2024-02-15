@@ -26,7 +26,7 @@ excerpt:    Daniel Garnier-Moiroux is a software engineer, tinkerer of things
 <ul>
     {% for post in site.posts %}
     <li>
-        <span>{{ post.date | date: "%d / %m / %Y" }} :&nbsp;</span>
+        <span>{{ post.date | date: "%Y / %m / %d" }} :&nbsp;</span>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
     {% endfor %}
