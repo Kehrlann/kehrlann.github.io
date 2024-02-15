@@ -41,7 +41,8 @@ pre.highlight {
   overflow: auto;
 
   @media(min-width: $width) {
-    margin-left: max(calc(-1*(100vw - #{$width})/2), -100px);
-    margin-right: max(calc(-1*(100vw - #{$width})/2), -100px);
+    // https://github.com/sass/node-sass/issues/2815
+    margin-left: calc(max(calc(-1*(100vw - #{$width})/2), -100px));
+    margin-right: calc(max(calc(-1*(100vw - #{$width})/2), -100px));
   }
 }
