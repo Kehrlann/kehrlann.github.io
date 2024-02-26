@@ -154,3 +154,20 @@ You showed us very nice insights with very good examples [...].
 </p>
 - Moritz Wirth
 </div>
+
+<div class="left-emboss">
+Hi Daniel,
+<p>
+I followed your workshop for spring security a couple of weeks ago at the J-fall preconference which I really enjoyed.
+</p>
+<p>
+Just wanted to let you know I had to set up spring security with keycloak today for a project and it was a breeze! Understood very well what was going on and what to configure where, so your workshop was super helpful!
+</p>
+<p>
+Just wanted to let you know and thank you for the great workshop! Keep up the good work ;)
+</p>
+<p>
+Kind regards,<br>
+Sven
+</p>
+</div>
