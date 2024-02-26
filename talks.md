@@ -155,6 +155,8 @@ You showed us very nice insights with very good examples [...].
 - Moritz Wirth
 </div>
 
+<p>&nbsp;</p>
+
 <div class="left-emboss">
 Hi Daniel,
 <p>
