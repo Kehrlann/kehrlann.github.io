@@ -23,6 +23,16 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2024-04-22 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=1u5LtsJqyrA" target="_blank" rel="noopener">Project Carvel: Composable Tools for Application Management</a>
+        <span>@ Kubecon EU Paris (English)</span>
+    </li>
+    <li>
+        <span>2024-03-07 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=FUWLYC1z1LU" target="_blank" rel="noopener">Password-less apps: implementing WebAuthN</a>
+        <span>@ Voxxed Zürich (English)</span>
+    </li>
+    <li>
         <span>2024-02-01 :&nbsp;</span>
         OAuth2, OpenID: le SSO en live-coding et sans framework (<a href="https://github.com/Kehrlann/sso-live-coding" target="_blank" rel="noopener">code</a>)
         <span>@ SnowCamp (French)</span>
