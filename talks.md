@@ -23,7 +23,32 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
-        <span>2024-04-22 :&nbsp;</span>
+        <span>2024-05-09 :&nbsp;</span>
+        Recipes for migrating Spring Boot apps to Native
+        <span>@ Devoxx UK (English)</span>
+    </li>
+    <li>
+        <span>2024-05-08 :&nbsp;</span>
+        Spring Security: The Good Parts™
+        <span>@ Devoxx UK (English)</span>
+    </li>
+    <li>
+        <span>2024-04-18 :&nbsp;</span>
+        Spring Security: Décodage et démystification
+        <span>@ MiXiT Lyon (French)</span>
+    </li>
+    <li>
+        <span>2024-04-19 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=RAuXohxXbAQ" target="_blank" rel="noopener">Password-less apps: Implementing WebAuthN</a>
+        <span>@ Devoxx France with Josh Long (English)</span>
+    </li>
+    <li>
+        <span>2024-04-10 :&nbsp;</span>
+        Spring Security: The Good Parts™
+        <span>@ Javaland (English)</span>
+    </li>
+    <li>
+        <span>2024-03-22 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=1u5LtsJqyrA" target="_blank" rel="noopener">Project Carvel: Composable Tools for Application Management</a>
         <span>@ Kubecon EU Paris (English)</span>
     </li>
