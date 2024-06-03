@@ -23,18 +23,33 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2024-05-30 :&nbsp;</span>
+        Spring Security: Architecture Principles
+        <span>@ SpringIO (English)</span>
+    </li>
+    <li>
+        <span>2024-05-22 :&nbsp;</span>
+        Carvel: small tools for joyfully deploying apps to Kubernetes
+        <span>@ Voxxed Brussels (English)</span>
+    </li>
+    <li>
+        <span>2024-05-21 :&nbsp;</span>
+        Spring Security: The Good Parts, 4h architecture workshop (<a href="https://github.com/Kehrlann/spring-security-architecture-workshop/" target="_blank" rel="noopener">course material</a>)
+        <span>@ Voxxed Brussels (English)</span>
+    </li>
+    <li>
         <span>2024-05-09 :&nbsp;</span>
-        Recipes for migrating Spring Boot apps to Native
+        <a href="https://www.youtube.com/watch?v=SXYU-WMjzBE" target="_blank" rel="noopener">Recipes for migrating Spring Boot apps to Native</a>
         <span>@ Devoxx UK (English)</span>
     </li>
     <li>
         <span>2024-05-08 :&nbsp;</span>
-        Spring Security: The Good Parts™
+        <a href="https://www.youtube.com/watch?v=kwxRe-4dnVU" target="_blank" rel="noopener">Spring Security: The Good Parts™</a>
         <span>@ Devoxx UK (English)</span>
     </li>
     <li>
         <span>2024-04-18 :&nbsp;</span>
-        Spring Security: Décodage et démystification
+        <a href="https://www.youtube.com/watch?v=U1jnaUvX9kA" target="_blank" rel="noopener">Spring Security: Décodage et démystification</a>
         <span>@ MiXiT Lyon (French)</span>
     </li>
     <li>
@@ -45,7 +60,7 @@ at events or meetups, so feel free to ping me or send me an invite !
     <li>
         <span>2024-04-10 :&nbsp;</span>
         Spring Security: The Good Parts™
-        <span>@ Javaland (English)</span>
+        <span>@ Javaland (English, private recording)</span>
     </li>
     <li>
         <span>2024-03-22 :&nbsp;</span>
