@@ -24,7 +24,7 @@ at events or meetups, so feel free to ping me or send me an invite !
 <ul class="no-justify roomy-list">
     <li>
         <span>2024-05-30 :&nbsp;</span>
-        Spring Security: Architecture Principles
+        <a href="https://www.youtube.com/watch?v=HyoLl3VcRFY" target="_blank" rel="noopener">Spring Security: Architecture Principles</a>
         <span>@ SpringIO (English)</span>
     </li>
     <li>
