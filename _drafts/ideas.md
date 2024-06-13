@@ -1,0 +1,4 @@
+- [ ] The details and the big picture
+- [ ] Symmetric-key JWT
+    - Performance benchmark?
+    - Key distribution?
