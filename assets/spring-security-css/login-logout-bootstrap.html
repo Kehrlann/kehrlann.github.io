@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Please sign in</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet" integrity="sha384-oOE/3m0LUMPub4kaC09mrdEhIc+e3exm4xOGxAmuFXhBNF4hcg/6MiAXAf5p0P56" crossorigin="anonymous"/>
+  </head>
+  <body>
+     <div class="container">
+      <form class="form-signin" method="post" action="/login">
+        <h2 class="form-signin-heading">Please sign in</h2>
+<div class="alert alert-success" role="alert">You have been signed out</div>        <p>
+          <label for="username" class="sr-only">Username</label>
+          <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
+        </p>
+        <p>
+          <label for="password" class="sr-only">Password</label>
+          <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+        </p>
+<p><input type='checkbox' name='remember-me'/> Remember me on this computer.</p>
+<input name="_csrf" type="hidden" value="y5eK1_tyu4HOFDae9eWfP_YrGX6UYH_8RIXiHVssK2djGRFr_fa8tZlBjrTjcgT_zcirW5UaNEfxBRzRIOGHeT1KTlFQKnAJ" />
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+<h2 class="form-signin-heading">Login with OAuth 2.0</h2><div class="alert alert-success" role="alert">You have been signed out</div><table class="table table-striped">
+ <tr><td><a href="/oauth2/authorization/third">Login with corp SSO</a></td></tr>
+ <tr><td><a href="/oauth2/authorization/second">Login with Github</a></td></tr>
+ <tr><td><a href="/oauth2/authorization/first">Login with Google</a></td></tr>
+</table>
+<h2 class="form-signin-heading">Login with SAML 2.0</h2><div class="alert alert-success" role="alert">You have been signed out</div><table class="table table-striped">
+ <tr><td><a href="/saml2/authenticate/okta">okta</a></td></tr>
+ <tr><td><a href="/saml2/authenticate/simplesamlPHP">simplesamlPHP</a></td></tr>
+</table>
+</div>
+</body></html>

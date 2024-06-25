@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Please sign in</title>
+    <style>
+    /* General layout */
+    body {
+      font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #eee;
+      padding: 40px 0;
+      margin: 0;
+      line-height: 1.5;
+    }
+    
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 2rem;
+    }
+    
+    .content {
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 15px;
+      padding-left: 15px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (min-width: 800px) {
+      .content {
+        max-width: 760px;
+      }
+    }
+    
+    /* Components */
+    a,
+    a:visited {
+      text-decoration: none;
+      color: #06f;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+      color: #003c97;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      height: auto;
+      width: 100%;
+      font-size: 1rem;
+      padding: 0.5rem;
+      box-sizing: border-box;
+    }
+    
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      border: none;
+      border-radius: 0.1rem;
+      width: 100%;
+    }
+    
+    button.primary {
+      color: #fff;
+      background-color: #06f;
+    }
+    
+    .alert {
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      border-radius: 0.1rem;
+      width: 100%;
+      box-sizing: border-box;
+      border-width: 1px;
+      border-style: solid;
+    }
+    
+    .alert.alert-danger {
+      color: #6b1922;
+      background-color: #f7d5d7;
+      border-color: #eab6bb;
+    }
+    
+    .alert.alert-success {
+      color: #145222;
+      background-color: #d1f0d9;
+      border-color: #c2ebcb;
+    }
+    
+    .screenreader {
+      position: absolute;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      width: 1px;
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+    }
+    
+    table {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+    
+    .table-striped tr:nth-of-type(2n + 1) {
+      background-color: #e1e1e1;
+    }
+    
+    td {
+      padding: 0.75rem;
+      vertical-align: top;
+    }
+    
+    /* Login / logout layouts */
+    .login-form,
+    .logout-form {
+      max-width: 340px;
+      padding: 0 15px 15px 15px;
+      margin: 0 auto 2rem auto;
+      box-sizing: border-box;
+    }
+    </style>
+  </head>
+  <body>
+     <div class="content">
+      <form class="login-form" method="post" action="/login">
+        <h2>Please sign in</h2>
+<div class="alert alert-danger" role="alert">Invalid credentials</div>        <p>
+          <label for="username" class="screenreader">Username</label>
+          <input type="text" id="username" name="username" placeholder="Username" required autofocus>
+        </p>
+        <p>
+          <label for="password" class="screenreader">Password</label>
+          <input type="password" id="password" name="password" placeholder="Password" required>
+        </p>
+<p><input type='checkbox' name='remember-me'/> Remember me on this computer.</p>
+<input name="_csrf" type="hidden" value="YKfs8mYu_EaxedjlYfVoEq-YJuQxvzAF9O5Kzc7CkyaXjjtBV5fVxAAdzXWcQLrTVNhcIJ36C4UDj1IolYty_fzwo0TyuFp0" />
+        <button type="submit" class="primary">Sign in</button>
+      </form>
+<h2>Login with OAuth 2.0</h2><div class="alert alert-danger" role="alert">Invalid credentials</div><table class="table table-striped">
+ <tr><td><a href="/oauth2/authorization/third">Login with corp SSO</a></td></tr>
+ <tr><td><a href="/oauth2/authorization/second">Login with Github</a></td></tr>
+ <tr><td><a href="/oauth2/authorization/first">Login with Google</a></td></tr>
+</table>
+<h2>Login with SAML 2.0</h2><div class="alert alert-danger" role="alert">Invalid credentials</div><table class="table table-striped">
+ <tr><td><a href="/saml2/authenticate/okta">okta</a></td></tr>
+ <tr><td><a href="/saml2/authenticate/simplesamlPHP">simplesamlPHP</a></td></tr>
+</table>
+</div>
+</body></html>
