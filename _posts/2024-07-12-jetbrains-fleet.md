@@ -18,7 +18,8 @@ for text-based editing is Neovim[^1], and I tend to fall back to Visual Studio C
 do multi-file editing or code-related stuff that's not Java, such as Python.
 
 I had tried Fleet a bit when it came out two-three years ago, but it didn't click for me. It may be
-a bit silly, but I missed the smooth caret movement from VS Code 😅️ Time to try it out again!
+a bit silly, but I missed the smooth caret movement from VS Code 😅️ I had a general feeling that VS
+Code was, I don't know, snappier? But it's been quite a while, so time to try it out again!
 
 
 ## The good
