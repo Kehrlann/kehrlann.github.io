@@ -29,7 +29,7 @@ at events or meetups, so feel free to ping me or send me an invite !
     </li>
     <li>
         <span>2024-05-22 :&nbsp;</span>
-        Carvel: small tools for joyfully deploying apps to Kubernetes
+        <a href="https://www.youtube.com/watch?v=Nq_xIdHS3Ac&list=PLRsbF2sD7JVptuksuX-wR-6_BS0CzKCqC" target="_blank" rel="noopener">Carvel: small tools for joyfully deploying apps to Kubernetes</a>
         <span>@ Voxxed Brussels (English)</span>
     </li>
     <li>
