@@ -11,3 +11,4 @@ _site
 *.sh
 .idea
 .vs
+.DS_Store
