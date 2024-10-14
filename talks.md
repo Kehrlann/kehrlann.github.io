@@ -24,7 +24,7 @@ at events or meetups, so feel free to ping me or send me an invite !
 <ul class="no-justify roomy-list">
     <li>
         <span>2024-10-09 :&nbsp;</span>
-        <a href="https://www.youtube.com/watch?v=yQC6LBSw2zs" target="_blank" rel="noopener">Spring Security: Architecture Principles</a>
+        <a href="https://www.youtube.com/watch?v=yQC6LBSw2zs" target="_blank" rel="noopener">Migrating Spring Boot Apps to GraalVM</a>
         <span>@ Devoxx Belgium (English)</span>
     </li>
     <li>
