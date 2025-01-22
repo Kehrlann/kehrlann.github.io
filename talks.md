@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2025-01-17 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=P4riNfBSvDs" target="_blank" rel="noopener">Passkeys in practice: implementing passwordless apps</a>
+        <span>@ Voxxed Ticino (English)</span>
+    </li>
+    <li>
         <span>2024-10-09 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=yQC6LBSw2zs" target="_blank" rel="noopener">Migrating Spring Boot Apps to GraalVM</a>
         <span>@ Devoxx Belgium (English)</span>
