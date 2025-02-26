@@ -28,6 +28,11 @@ at events or meetups, so feel free to ping me or send me an invite !
         <span>@ Voxxed Ticino (English)</span>
     </li>
     <li>
+        <span>2025-01-15 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=LJfUGH-88fM" target="_blank" rel="noopener">OAuth2, OpenID: live-coding SSO, from first principles</a>
+        <span>@ Voxxed CERN (English)</span>
+    </li>
+    <li>
         <span>2024-10-09 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=yQC6LBSw2zs" target="_blank" rel="noopener">Migrating Spring Boot Apps to GraalVM</a>
         <span>@ Devoxx Belgium (English)</span>
