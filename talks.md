@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2025-03-25 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=bH5PxcJzwME" target="_blank" rel="noopener">OAuth2, OpenID: SSO under the hood</a>
+        <span>@ Voxxed Zürich (English)</span>
+    </li>
+    <li>
         <span>2025-01-17 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=P4riNfBSvDs" target="_blank" rel="noopener">Passkeys in practice: implementing passwordless apps</a>
         <span>@ Voxxed Ticino (English)</span>
