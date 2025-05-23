@@ -23,6 +23,22 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2025-05-08 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=ZEUl9jvHLyU" target="_blank" rel="noopener">Spring Boot Testing: Zero to Hero</a>
+        <span>@ Devoxx UK (English)</span>
+    <li>
+        <span>2025-05-07 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=z-Fwi-Zf0Dk" target="_blank" rel="noopener">Passkeys, One-Time Tokens: Passwordless Spring Security</a>
+        <span>@ Devoxx UK (English)</span>
+    <li>
+        <span>2025-04-18 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=7A2BmZNQ0Xc" target="_blank" rel="noopener">Tester les applications Spring Boot, sous toutes les coutures.</a>
+        <span>@ Devoxx France (French)</span>
+    <li>
+        <span>2025-04-16 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=KGRmy9rUsRQ" target="_blank" rel="noopener">OAuth2, OpenID: Sous le capot</a>
+        <span>@ Devoxx France (French)</span>
+    <li>
         <span>2025-04-10 :&nbsp;</span>
         <a href="https://www.youtube.com/live/7xCNmQE8vrg?feature=shared&t=7387" target="_blank" rel="noopener">Passkeys, One-Time Tokens: Passwordless Spring Security
 </a>
