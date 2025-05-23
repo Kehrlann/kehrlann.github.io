@@ -8,7 +8,7 @@ lang:       en
 excerpt:    "Learning ideas for Spring"
 ---
 
-Latest revision: 2025-05-23
+_(Latest revision: 2025-05-23)_
 
 I sometimes get the odd e-mail with a general "I've learned the basics of Spring Boot, how do I learn more?"
 
@@ -43,3 +43,6 @@ I can personally recommend two: [Spring In Action by Craig Walls](https://www.ma
 
 And of course, the reference docs for all the various Spring projects. They are a trove of information, but you may need to read some things over two or three times until you grasp the more complicated concepts.
 For example, here's an "architecture" page in the [Spring Security docs](https://docs.spring.io/spring-security/reference/servlet/authentication/architecture.html), the intro to the [Spring Test Context framework](https://docs.spring.io/spring-framework/reference/testing/testcontext-framework.html), or details about how [Spring Boot's externalized configuration gets picked up](https://docs.spring.io/spring-boot/reference/features/external-config.html).
+
+Lastly, I personally recommend the [Youtube channel of the Spring I/O
+conference](https://www.youtube.com/@SpringIOConference). Go the videos tab, click "popular", and voilà! Hours of content by experts for intermediate-level developers.
