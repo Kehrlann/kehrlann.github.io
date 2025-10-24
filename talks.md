@@ -23,6 +23,21 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2025-10-07 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=O6G6ufT03fk" target="_blank" rel="noopener">Authorization in Spring Security: permissions, roles and beyond</a>
+        <span>@ Devoxx Belgium (English)</span>
+    </li>
+    <li>
+        <span>2025-10-09 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=AEuOdJu9K9A" target="_blank" rel="noopener">Securing MCP Servers</a>
+        <span>@ Devoxx Belgium (English)</span>
+    </li>
+    <li>
+        <span>2025-10-07 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=-x8-s3QnhMQ" target="_blank" rel="noopener">Authorization in Spring Security: permissions, roles and beyond</a>
+        <span>@ Devoxx Belgium (English)</span>
+    </li>
+    <li>
         <span>2025-05-22 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=-x8-s3QnhMQ" target="_blank" rel="noopener">Authorization in Spring Security: permissions, roles and beyond</a>
         <span>@ SpringIO (English)</span>
