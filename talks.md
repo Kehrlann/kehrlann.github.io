@@ -69,6 +69,11 @@ at events or meetups, so feel free to ping me or send me an invite !
         <span>@ Voxxed CERN (English)</span>
     </li>
     <li>
+        <span>2024-11-07 :&nbsp;</span>
+        <a href="www.youtube.com/watch?v=hu_i7dYiWq0" target="_blank" rel="noopener">Migrating Spring Boot Apps to GraalVM</a>
+        <span>@ J-Fall (English)</span>
+    </li>
+    <li>
         <span>2024-10-09 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=yQC6LBSw2zs" target="_blank" rel="noopener">Migrating Spring Boot Apps to GraalVM</a>
         <span>@ Devoxx Belgium (English)</span>
