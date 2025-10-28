@@ -34,7 +34,7 @@ at events or meetups, so feel free to ping me or send me an invite !
     </li>
     <li>
         <span>2025-10-07 :&nbsp;</span>
-        <a href="https://www.youtube.com/watch?v=-x8-s3QnhMQ" target="_blank" rel="noopener">Authorization in Spring Security: permissions, roles and beyond</a>
+        <a href="https://www.youtube.com/watch?v=LGlyLmxjutI" target="_blank" rel="noopener">Authorization in Spring Security: permissions, roles and beyond</a>
         <span>@ Devoxx Belgium (English)</span>
     </li>
     <li>
