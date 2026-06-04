@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2025-11-21 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=EdyrGTGsQeU" target="_blank" rel="noopener">Des applis sans mot de passe: Passkeys en pratique</a>
+        <span>@ DevFest Paris (French)</span>
+    </li>
+    <li>
         <span>2025-10-07 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=O6G6ufT03fk" target="_blank" rel="noopener">Securing MCP Servers</a>
         <span>@ Devoxx Belgium (English)</span>
