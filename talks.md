@@ -23,6 +23,16 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2026-06-04 :&nbsp;</span>
+        Spring Security: The Good Parts™
+        <span>@ J-Spring (English)</span>
+    </li>
+    <li>
+        <span>2026-05-06 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=jXfGwZfodYI" target="_blank" rel="noopener"> Authorization in Spring Security: permissions, roles and beyond</a>
+        <span>@ Devoxx UK (English)</span>
+    </li>
+    <li>
         <span>2026-04-24 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=jXfGwZfodYI" target="_blank" rel="noopener">Tester les applications Spring Boot, sous toutes les coutures.</a>
         <span>@ Devoxx France (French)</span>
