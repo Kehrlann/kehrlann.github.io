@@ -23,6 +23,21 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2026-04-24 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=jXfGwZfodYI" target="_blank" rel="noopener">Tester les applications Spring Boot, sous toutes les coutures.</a>
+        <span>@ Devoxx France (French)</span>
+    </li>
+    <li>
+        <span>2026-04-22 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=qIOznAGxG-A" target="_blank" rel="noopener">Serveurs MCP sécurisés avec Spring AI</a>
+        <span>@ Devoxx France (French)</span>
+    </li>
+    <li>
+        <span>2026-04-14 :&nbsp;</span>
+        New in Spring Security 7: MFA, OAuth2 and more
+        <span>@ Spring I/O (English)</span>
+    </li>
+    <li>
         <span>2025-11-21 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=EdyrGTGsQeU" target="_blank" rel="noopener">Des applis sans mot de passe: Passkeys en pratique</a>
         <span>@ DevFest Paris (French)</span>
