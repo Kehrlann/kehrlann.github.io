@@ -29,7 +29,7 @@ at events or meetups, so feel free to ping me or send me an invite !
     </li>
     <li>
         <span>2026-05-06 :&nbsp;</span>
-        <a href="https://www.youtube.com/watch?v=jXfGwZfodYI" target="_blank" rel="noopener"> Authorization in Spring Security: permissions, roles and beyond</a>
+        Authorization in Spring Security: permissions, roles and beyond
         <span>@ Devoxx UK (English)</span>
     </li>
     <li>
@@ -44,7 +44,7 @@ at events or meetups, so feel free to ping me or send me an invite !
     </li>
     <li>
         <span>2026-04-14 :&nbsp;</span>
-        New in Spring Security 7: MFA, OAuth2 and more
+        <a href="https://www.youtube.com/watch?v=zO-bktrLju8" target="_blank" rel="noopener">New in Spring Security 7: MFA, OAuth2 and more</a>
         <span>@ Spring I/O (English)</span>
     </li>
     <li>
