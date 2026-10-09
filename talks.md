@@ -24,7 +24,7 @@ at events or meetups, so feel free to ping me or send me an invite !
 <ul class="no-justify roomy-list">
     <li>
         <span>2026-06-04 :&nbsp;</span>
-        Spring Security: The Good Parts™
+        <a href="https://www.youtube.com/watch?v=bl1rthyJrds" target="_blank" rel="noopener">Spring Security: The Good Parts™</a>
         <span>@ J-Spring (English)</span>
     </li>
     <li>
