@@ -23,6 +23,11 @@ at events or meetups, so feel free to ping me or send me an invite !
 
 <ul class="no-justify roomy-list">
     <li>
+        <span>2026-10-08 :&nbsp;</span>
+        <a href="https://www.youtube.com/watch?v=W-OKVLMtPAw" target="_blank" rel="noopener">Bootiful Security (with Josh Long)</a>
+        <span>@ Devoxx Belgium (English)</span>
+    </li>
+    <li>
         <span>2026-06-04 :&nbsp;</span>
         <a href="https://www.youtube.com/watch?v=bl1rthyJrds" target="_blank" rel="noopener">Spring Security: The Good Parts™</a>
         <span>@ J-Spring (English)</span>
